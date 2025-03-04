@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: otherheaven.net/sitemap.xml
+Sitemap: https://otherheaven.net/sitemap.xml

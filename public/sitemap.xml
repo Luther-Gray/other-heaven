@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>otherheaven.net/</loc>
+        <loc>https://otherheaven.net/</loc>
     </url>
     <url>
-        <loc>otherheaven.net/blog/</loc>
+        <loc>https://otherheaven.net/blog/</loc>
     </url>
     <url>
-        <loc>otherheaven.net/blog/thejoyofcreation/</loc>
+        <loc>https://otherheaven.net/blog/thejoyofcreation/</loc>
         <lastmod>2024-07-01</lastmod>
     </url>
     <url>
-        <loc>otherheaven.net/resources/</loc>
+        <loc>https://otherheaven.net/resources/</loc>
     </url>
     <url>
-        <loc>otherheaven.net/showcase/</loc>
+        <loc>https://otherheaven.net/showcase/</loc>
     </url>
     <url>
-        <loc>otherheaven.net/socials/</loc>
+        <loc>https://otherheaven.net/socials/</loc>
     </url>
 </urlset>

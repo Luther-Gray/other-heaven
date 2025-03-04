@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "otherheaven.net"
+base_url = "https://otherheaven.net/"
 title = "Other Heaven"
 description = "Luther Gray's personal site & blog."
 default_language = "en"
