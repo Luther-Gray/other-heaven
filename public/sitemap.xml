@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/</loc>
+    </url>
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/blog/</loc>
+    </url>
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/blog/thejoyofcreation/</loc>
+        <lastmod>2024-07-01</lastmod>
+    </url>
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/resources/</loc>
+    </url>
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/showcase/</loc>
+    </url>
+    <url>
+        <loc>https://lutherdev.codeberg.page/other-heaven/public/socials/</loc>
+    </url>
+</urlset>
