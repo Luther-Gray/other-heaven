@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://lutherdev.codeberg.page/other-heaven/public/sitemap.xml
+Sitemap: otherheaven.net/sitemap.xml
