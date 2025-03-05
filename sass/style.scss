@@ -43,9 +43,9 @@ body {
         #86bf8f 100%
     );
     background-size: 2rem 2rem;
-    // overflow: hidden; This prevented scrolling in blog post.
+    // overflow: hidden;
     font-family: $announceFont;
-    animation: backgroundScroll 30s linear infinite;
+    animation: backgroundScroll 120s linear infinite;
 }
 
 @keyframes backgroundScroll {
@@ -98,8 +98,9 @@ hr {
 h1 {
     margin: auto;
     user-select: none;
-    color: $cWhite;
+    color: $cGold;
     text-shadow: $tShadow;
+    min-width: max-content;
 }
 h2 {
     margin: auto;
@@ -280,6 +281,22 @@ li {
     padding-top: 0.2rem;
     padding-left: 0.5rem;
     overflow: hidden;
+}
+
+.badgeContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialBadge {
+    max-height: 100%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.socialBadge:hover {
+    box-shadow: 0 5px 15px $cDark;
+    transform: translateY(-5px);
 }
 
 .spacer {
