@@ -43,7 +43,7 @@ body {
         #86bf8f 100%
     );
     background-size: 2rem 2rem;
-    overflow: hidden;
+    // overflow: hidden; This prevented scrolling in blog post.
     font-family: $announceFont;
     animation: backgroundScroll 30s linear infinite;
 }
@@ -55,7 +55,8 @@ body {
   }
 
 a {
-    text-decoration: none;
+    // text-decoration: none;
+    color: $cWhite;
 }
 a:visited {
     color: inherit;
@@ -80,11 +81,10 @@ button:hover {
 
 img {
     display: grid;
-    max-width: 30%;
+    max-width: 100%;
     max-height: 30%;
     align-self: center;
     justify-self: center;
-    position: absolute;
     z-index: -1;
     filter: drop-shadow($iShadow);
 }
@@ -179,9 +179,19 @@ li {
 }
 
 .hIcon {
+    position: absolute;
+    max-width: 30%;
     animation: logoBounce 0.5s cubic-bezier(0.1, 0.1, 1, 0.1);
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
+
+.hReturn {
+    max-width: 30%;
+    animation: logoBounce 0.5s cubic-bezier(0.1, 0.1, 1, 0.1);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    padding-bottom: 0.1vh;
 }
 
 // Light Bouncing Animation for Logo
