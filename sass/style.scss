@@ -270,6 +270,16 @@ li {
   justify-content: center;
 }
 
+.scrobbleContainer {
+  height: fit-content;
+  padding: 2%;
+  justify-self: center;
+}
+.scrobble {
+  height: auto;
+  max-height: inherit;
+}
+
 .hSocials {
   display: grid;
   grid: {
