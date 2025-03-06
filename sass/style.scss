@@ -15,7 +15,9 @@
 /* ~VARIABLES~ */
 $announceFont: "8-BitMage";
 $blogFont: "Minecraft";
-$cardColor: rgba(26, 26, 26, 0.92);
+$cardColor: rgba(26, 26, 26, 0.95);
+$darkGradient: linear-gradient(to top, #1a1a1a, #483f46, #83666a, #bc9485, #e6cca1);
+$lightGradient: linear-gradient(to bottom, #f5f5f5, #f4e8f1, #fcdade, #fbd0bf, #e6cca1);
 $tShadow: 4px 6px 10px #1a1a1a, 2px 0px 5px rgba(26, 26, 26, 0.6);
 $iShadow: 2px 3px 5px #1a1a1a;
 $cDark: #1a1a1a;
@@ -63,17 +65,50 @@ a:hover {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 10px;
   height: 8rem;
   border: none;
-  background: $cGold;
+  background-color: $cGold;
   transition: transform 250ms;
-  box-shadow: $tShadow;
+  box-shadow: $iShadow;
   font-family: $blogFont;
 }
 
 button:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
+  transition:
+      transform
+      100ms
+      cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active {
+  transform: translateY(-2px);
+  transition:
+      transform
+      30ms
+      cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.navLink {
+  max-height: 10rem;
+}
+
+.navBadge {
+  display: flex;
+  vertical-align: middle;
+  max-height: 100%;
+  transition: box-shadow 0.3s ease, transform
+  100ms
+  cubic-bezier(.3, 1, .4, 1.5);
+}
+
+.navBadge:hover {
+  transform: translateY(-5px);
+  transition:
+      transform
+      100ms
+      cubic-bezier(.3, .7, .4, 1.5);
 }
 
 img {
@@ -213,6 +248,7 @@ li {
   }
   justify-content: left;
   background-color: $cardColor;
+  box-shadow: $iShadow;
   border-color: $cardColor;
   border-radius: 1rem;
   z-index: -2;
@@ -246,6 +282,10 @@ li {
   overflow: hidden;
 }
 
+.blogContainer {
+  display:block;
+}
+
 .blogPost {
   margin: auto;
 }
@@ -265,15 +305,19 @@ li {
 }
 
 .navBar {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-content: space-evenly;
   justify-content: center;
+  gap: 2%;
 }
 
 .scrobbleContainer {
   height: fit-content;
   padding: 2%;
   justify-self: center;
+  margin: 3%;
 }
 .scrobble {
   height: auto;

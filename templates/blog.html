@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block content %}
-<div class="parent">
+<div class="blogContainer">
     <h1 class="title">{{ section.title }}</h1>
     <ul>
         {% for page in section.pages %}
@@ -10,5 +10,7 @@
         </li>
         {% endfor %}
     </ul>
+    <a href="/"><img src="/Button-Return-Home.png" alt="Return to Home Page" class="hReturn"/></a>
 </div>
+
 {% endblock content %}

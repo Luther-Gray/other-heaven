@@ -32,7 +32,6 @@
     <h1>📓 Featured Posts📓</h1>
     {% set blog_section = get_section(path="blog/_index.md") %} {% for page in
     blog_section.pages %}
-
     <ul class="blogPost">
       <li>
         <a href="{{ page.permalink | safe }}"> {{ page.title }} </a>
@@ -42,12 +41,17 @@
   </div>
   <div class="hNavigation">
     <h1>🗺️ Navigation 🗺️</h1>
-    <button class="scrobbleContainer" href="https://www.last.fm/user/LutherDev"><img src="https://lastfm-recently-played.vercel.app/api?user=LutherDev" class="scrobble"/></>
+    <button class="scrobbleContainer" href="https://www.last.fm/user/LutherDev">
+      <img
+        src="https://lastfm-recently-played.vercel.app/api?user=LutherDev"
+        class="scrobble"
+      />
+    </button>
+
     <nav class="navBar">
-      <!-- <a href="{{ get_url(path='@/blog/_index.md') }}">
-                <button>🖋️ Blog 🖋️</button>
-            </a> -->
-      <button>🖋️ Blog 🖋️</button>
+        <a class="navLink" href="{{ get_url(path='@/blog/_index.md') }}" rel="nofollow"
+          ><img class="navBadge" src="homeImages/blogIcon.png"
+        alt="Luther's Blog"/></a>
       <!-- <button>
                 <a href="{{ get_url(path='@/resources/_index.md') }}"
                     >🗃️ Resources 🗃️</a
@@ -60,7 +64,6 @@
                 >
             </button> -->
       <button>🖼️ Showcase 🖼️</button>
-      
 
       <h2>⚒️W.I.P⚒️</h2>
     </nav>
@@ -102,7 +105,7 @@
       >
       <a href="https://webring.obeythesystem.com/" rel="nofollow">
         <img
-          style="display: inherit; vertical-align: middle; max-height: 100%;"
+          style="display: inherit; vertical-align: middle; max-height: 100%"
           src="socials/obeythesystem.gif"
           alt="OTS Webring Button"
         />
