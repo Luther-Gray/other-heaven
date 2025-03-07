@@ -2,8 +2,7 @@
 title = "The Dirty 3D Artist"
 date = 2025-03-06
 +++
-
-# AI is Useful, but not THAT Useful
+# 👋🏿 AI is Useful, but not THAT Useful
 
 My friend group is small, but very diverse. It's composed of a nasty mix of a doctor, lawyers, artists, programmers, gamers, designers, fashionistas, and 1 lone musician. As a digusting hybrid breed of artist, programmer, gamer and designer, I end up cross-pollinating, like a coked out bee, a lot of discussions when it comes to the thing that threatens everyone's job.
 

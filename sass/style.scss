@@ -16,8 +16,8 @@
 $announceFont: "8-BitMage";
 $blogFont: "Minecraft";
 $cardColor: rgba(26, 26, 26, 0.95);
-$darkGradient: linear-gradient(to top, #1a1a1a, #483f46, #83666a, #bc9485, #e6cca1);
-$lightGradient: linear-gradient(to bottom, #f5f5f5, #f4e8f1, #fcdade, #fbd0bf, #e6cca1);
+$darkGradient: linear-gradient(to top, #1a1a1a3f, #483f463f, #83666a3f, #bc94853f, #e6cca13f);
+$lightGradient: linear-gradient(to bottom, #f5f5f53f, #f4e8f152, #fcdade73, #fbd0bfa9, #e6cca1d0);
 $tShadow: 4px 6px 10px #1a1a1a, 2px 0px 5px rgba(26, 26, 26, 0.6);
 $iShadow: 2px 3px 5px #1a1a1a;
 $cDark: #1a1a1a;
@@ -301,6 +301,11 @@ li {
 
 .blogContainer {
   display:block;
+  background: $lightGradient;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: $iShadow;
+  backdrop-filter: blur(10px);
 }
 
 .blogPost {
