@@ -12,19 +12,35 @@
     url("fonts/minecraft-font/Minecraft-Italic.ttf"), format("truetype"),
     url("fonts/minecraft-font/Minecraft-BoldItalic.ttf"), format("truetype");
 }
+
 /* ~VARIABLES~ */
 $announceFont: "8-BitMage";
 $blogFont: "Minecraft";
 $cardColor: rgba(26, 26, 26, 0.95);
-$darkGradient: linear-gradient(to top, #1a1a1a3f, #483f463f, #83666a3f, #bc94853f, #e6cca13f);
-$lightGradient: linear-gradient(to bottom, #f5f5f53f, #f4e8f152, #fcdade73, #fbd0bfa9, #e6cca1d0);
-$tShadow: 4px 6px 10px #1a1a1a, 2px 0px 5px rgba(26, 26, 26, 0.6);
+$darkGradient: linear-gradient(
+  to top,
+  #1a1a1a3f,
+  #483f463f,
+  #83666a3f,
+  #bc94853f,
+  #e6cca13f
+);
+$lightGradient: linear-gradient(
+  to bottom,
+  #f5f5f53f,
+  #f4e8f152,
+  #fcdade73,
+  #fbd0bfa9,
+  #e6cca1d0
+);
+$tShadow: 4px 4px 10px #1a1a1a, 2px 0px 5px rgba(26, 26, 26, 0.6);
 $iShadow: 2px 3px 5px #1a1a1a;
 $cDark: #1a1a1a;
 $cGreen: #6da18a;
 $cLightGreen: #86bf8f;
 $cWhite: #f5f5f5;
 $cGold: #e6cca1;
+
 /* ~GLOBALS~ */
 html {
   scroll-behavior: smooth;
@@ -76,18 +92,12 @@ button {
 
 button:hover {
   transform: translateY(-5px);
-  transition:
-      transform
-      100ms
-      cubic-bezier(.3, .7, .4, 1.5);
+  transition: transform 100ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
 button:active {
   transform: translateY(-2px);
-  transition:
-      transform
-      30ms
-      cubic-bezier(.3, .7, .4, 1.5);
+  transition: transform 30ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
 .navLink {
@@ -98,19 +108,15 @@ button:active {
   display: flex;
   vertical-align: middle;
   max-height: 100%;
-  transition: box-shadow 0.3s ease, transform
-  100ms
-  cubic-bezier(.3, 1, .4, 1.5);
+  transition: box-shadow 0.3s ease,
+    transform 100ms cubic-bezier(0.3, 1, 0.4, 1.5);
 }
 
 .navBadge:hover {
   transform: translateY(-5px);
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-  transition:
-      transform
-      100ms
-      cubic-bezier(.3, .7, .4, 1.5);
+  transition: transform 100ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
 img {
@@ -242,17 +248,39 @@ li {
 
 //Light Shaking Animation for Hover Buttons
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 .hAbout {
@@ -295,12 +323,12 @@ li {
   }
   background-color: $cardColor;
   border-color: $cardColor;
+  // background: $darkGradient;
   border-radius: 1rem;
   overflow: hidden;
 }
 
 .blogContainer {
-  display:block;
   background: $lightGradient;
   padding: 2%;
   border-radius: 10px;
