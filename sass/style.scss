@@ -193,7 +193,7 @@ li {
   text-shadow: $tShadow;
 }
 
-/* ~SECTIONS~ */
+/* ~SECTIONS | INDEX~ */
 
 .parent {
   display: grid;
@@ -435,4 +435,80 @@ li {
   padding: 0.2vh;
   margin-bottom: 5%;
   color: $cWhite;
+}
+
+/* ~SECTIONS | RESOURCES~ */
+
+.scrollManager {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: $darkGradient;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: $iShadow;
+  backdrop-filter: blur(10px);
+}
+
+.albumContainer {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.albumScroll {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 10px;
+  animation: 55s carouselR infinite linear;
+}
+.albumScroll img {
+  max-height: unset;
+  display: unset;
+  max-width: unset;
+  align-self: unset;
+}
+
+.albumScrollAlt {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 10px;
+  animation: 55s carouselL infinite linear;
+}
+
+.albumScrollAlt img {
+  max-height: unset;
+  display: unset;
+  max-width: unset;
+  align-self: unset;
+}
+
+// ???????? Why does this work?????? The logical thing didn't work, but THIS did????
+@keyframes carouselR {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes carouselL {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translatex(-100%);
+  }
+}
+
+.albumContainer:hover .albumScroll {
+  animation-play-state: paused;
+}
+
+.albumContainer:hover .albumScrollAlt {
+  animation-play-state: paused;
 }
