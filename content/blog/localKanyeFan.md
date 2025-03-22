@@ -27,7 +27,7 @@ I just need one more. One more good record then I can wash my hands of this mf f
 
 # "Luther I want to tell you MY favorite artist now!"
 
-You know I thought about adding a guestbook/comment section just recently, but now I'm sitting here rubbing my chin like- "Naahhhhh, that's not a good fucking idea buddy!" Some nasty rat will crawl in, on their hands and knees, sniffling-"Have you listened to that new PartyNextDoor?" "Hey man, what about Future, I saw DS2 on your scroll bro. Come on bro. Can't trust these hoooooeeees bro."
+You know I thought about adding a guestbook/comment section just recently, but now I'm sitting here rubbing my chin like- "Naahhhhh, that's not a good fucking idea buddy!" Some nasty rat will skitter in, sniffling-"Have you listened to that new PartyNextDoor?" "Hey man, what about Future, I saw DS2 on your scroll bro. Come on bro. Can't trust these hoooooeeees bro."
 
 You and I, we're cordial. Y'know? Author and reader. We have a harmonious relationship that transcends time and space. You wouldn't want to throw that away just to tell me, "Actually, I thought Whole Lotta Mid was great! And that new thang? I Am Music? *chef kiss*"
 
