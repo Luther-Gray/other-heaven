@@ -356,16 +356,16 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-evenly;
+  align-content: center;
   justify-content: center;
-  gap: 2%;
+  gap: 10%;
 }
 
 .scrobbleContainer {
   height: fit-content;
-  padding: 2%;
+  padding: 2vh;
   justify-self: center;
-  margin: 3%;
+  // margin: 1vh;
   border-radius: 10px;
 }
 .scrobble {
@@ -391,7 +391,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1%;
+  margin: 1vh;
 }
 
 .badgeContainer {
@@ -404,17 +404,17 @@ li {
   position: relative;
   display: flex;
   justify-content: space-around;
-  max-height: 100%;
+  max-height: 100vh;
   flex-wrap: wrap;
 }
 
 .socialBadge {
-  max-height: 100%;
+  max-height: 100vh;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .tagBadge {
-  max-height: 100%;
+  max-height: 100vh;
 }
 
 .socialBadge:hover {
@@ -423,17 +423,17 @@ li {
 }
 
 .spacer {
-  padding-bottom: 1rem;
+  padding-bottom: 1vh;
 }
 
 .title {
   padding: 0.2vh;
-  margin-bottom: 1%;
+  margin-bottom: 1vh;
 }
 
 .subtitle {
   padding: 0.2vh;
-  margin-bottom: 1%;
+  margin-bottom: 1vh;
   color: $cWhite;
 }
 
