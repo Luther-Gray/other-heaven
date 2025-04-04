@@ -106,4 +106,4 @@ I could yap about this forever, but I don't wanna.
 
 Anyways, I have a Gregtech modpack to finish up and then I want to actually do a Rustlings exercise because I've slacked off like hell on that. Also chains are expensive as hell bro I might just put some sandbags on my weights and call it good.
 
-Take it easy~ | Luther
+Take it easy~ | Luther✌🏿

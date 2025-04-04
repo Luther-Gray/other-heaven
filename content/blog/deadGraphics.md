@@ -92,4 +92,4 @@ Why did I bring all of these things up at the same time?
 
 Dunno, anyways I got nothing to do.
 
-Peace~ | Luther
+Peace~ | Luther✌🏿

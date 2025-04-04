@@ -7,7 +7,7 @@ tags = ["Music", "Culture"]
 
 *Hip-Hop Culture Heavy Post Ahead*
 
-# AHHHHHHHHHH WHAT IS HE DOING?!
+# AHHHHHHHHHH WHAT IS HE DOING?! *and hi lol* 👋🏿
 
 There's a tradition you go through when Kanye West is your goat. Every other year, the entire hip-hop community gets to point and laugh at you as the world watches your goat crash the fuck out. It's a humiliation ritual, a universal hazing that surpasses the absolute devastation that is Carti fans waiting 5 years for yet ANOTHER mid album, Drake fans sweating their asses off trying to defend this guy from xyz allegation/Karen-ass move, and Cole fans swearing up and down that their goat was just playin around with that grippy bar.
 

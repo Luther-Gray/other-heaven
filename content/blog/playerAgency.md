@@ -51,4 +51,4 @@ The general consensus seems to be that they are outdated and rotten from the ins
 
 And it's worth remembering that just like players hate Random Encounters now, they will hate Cozy Games next. In other news, grass is green!
 
-Cya around~ | Luther
+Cya around~ | Luther✌🏿

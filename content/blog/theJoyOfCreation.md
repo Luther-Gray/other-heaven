@@ -7,3 +7,9 @@ date = 2024-07-01
 This site was built with [Zola SSG](https://www.getzola.org/). I don't know why I went for this instead of [Hugo](https://gohugo.io/). They seem equal in functionality and for my purposes, I didn't even really need an SSG to be frank. It's all just a bunch of HTML and CSS. The markdown stuff is neat but not super needed.
 
 Anyways, this is just a test post. I don't have the energy in me to write something proper yet, but I do intend to move some of my notes for game design and my art showcases to this site eventually. Promise! 😊
+
+And when I end a post, I'll do something like
+
+Bye~ | Luther✌🏿
+
+OOOO THAT'S GOOD THAT'S GOOD I'M SO GOOD YEAH YEAHH YEAH!

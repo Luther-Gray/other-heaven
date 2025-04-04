@@ -102,4 +102,4 @@ Dunno.
 
 Anyways, I'm gone. Gonna bump some MAVI and seach for some chains that will fit on my dumbells.
 
-Take it easy~ | Luther
+Take it easy~ | Luther✌🏿
