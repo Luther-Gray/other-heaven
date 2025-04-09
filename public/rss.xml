@@ -7,10 +7,44 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Scrapped Voxel Game</title>
+          <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/showcase/voxterra/</link>
+          <guid>https://otherheaven.net/showcase/voxterra/</guid>
+          <description xml:base="https://otherheaven.net/showcase/voxterra/">&lt;p&gt;Next in line for my gaggle of destroyed and scrapped projects is Voxterra. Back when Cube World was basically nuked from orbit thanks to a horrible launch with more than questionable Game Design, I wanted to tinker around with the concept. I set up my player to have swappable pieces, once again making the folly of doing too much character art before making the actual fucking game~ :]&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;portfolioImages&#x2F;voxPlayer.png&quot; alt=&quot;Scrapped Voxel Game&quot; title=&quot;Scrapped Voxel RPG&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Voxterra&#x27;s scope was very small, but I was already juggling far too many plates, in addition to learning Javascript so I could cleanly exit the gaming industry at the time and land on a soft cushion.&lt;&#x2F;p&gt;
+&lt;p&gt;In the end, it died before it could even walk. I still have the GDD for it laying around somewhere but it wasn&#x27;t detailed at all.&lt;&#x2F;p&gt;
+&lt;p&gt;At one point I wanted to make a mod for Veloren to swap the player with this kind of Cube World-like character model instead of the defaults (I didn&#x27;t like them very much) but Veloren was written in RUST! HAHAHAHHAAHAHA! WHY? I DON&#x27;T KNOW! HAHAHAHAHAHAHAHA!&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Re-worked Pokemon Fan Game</title>
+          <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/showcase/pkmnext/</link>
+          <guid>https://otherheaven.net/showcase/pkmnext/</guid>
+          <description xml:base="https://otherheaven.net/showcase/pkmnext/">&lt;p&gt;When I was younger I made Pokemon Rom Hacks with random tools that I found on the internet. Before I started work on my own personal game, I thought that it&#x27;d be fun to make a HD-2D Pokemon Game in Godot.&lt;&#x2F;p&gt;
+&lt;p&gt;But then after I finished the first set of sprites, I choked.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;portfolioImages&#x2F;Player.png&quot; alt=&quot;Scrapped Pokemon&quot; title=&quot;Scrapped Pokemon Characters&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As you can see, I had a character creator feature planned. But the amount of sprites I would&#x27;ve had to make was overwhelming for me at the time. I think I made a simple walk cycle for the left and right directions, but then I pivoted.&lt;&#x2F;p&gt;
+&lt;p&gt;My thinking was, well, I already know 3D. If I just make a character, I can swap the parts and do the character creation that way!&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth noting that by this point, I didn&#x27;t know that Adobe bought Substance Painter. :]&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;portfolioImages&#x2F;PlayerBB.png&quot; alt=&quot;Scrapped PokemonBB&quot; title=&quot;Scrapped Pokemon Character&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I promise you, I have gotten WAY better at making characters since then, but they still aren&#x27;t my strong suit.&lt;&#x2F;p&gt;
+&lt;p&gt;This was a common issue with me and my projects for a long time.&lt;&#x2F;p&gt;
+&lt;p&gt;I recall reading that Miyamoto made sure that Mario was fun to move around in a 3D enviroment before he made a single level. I internalized that philosophy, and so a lot of my time is spent making characters and character controllers. They aren&#x27;t my strength, but I do them anyways because I NEED a character to make the rest of the world.&lt;&#x2F;p&gt;
+&lt;p&gt;Want to make a door? Well how big is the player? How fast do they move? Where is the camera? 1 million different questions that I can&#x27;t answer until I do it! It&#x27;s maddening!&lt;&#x2F;p&gt;
+&lt;p&gt;This is why people say don&#x27;t do indie development alone. Not because it&#x27;s particularly difficult, but because it&#x27;s time consuming as all hell.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I still haven&#x27;t given up on this project, and I want to make it come to life eventually, but that&#x27;ll 100% be YEARS away.&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Scrapped Weapons</title>
-          <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+          <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
           <author>Luther Gray</author>
           <link>https://otherheaven.net/showcase/bladeworks/</link>
           <guid>https://otherheaven.net/showcase/bladeworks/</guid>
