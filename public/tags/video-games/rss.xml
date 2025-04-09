@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Other Heaven - Video Games</title>
+      <link>https://otherheaven.net/</link>
+      <description>Luther Gray&#x27;s personal site &amp; blog.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://otherheaven.net/tags/video-games/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Learning to Respect Roblox</title>
+          <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/blog/respectblox/</link>
+          <guid>https://otherheaven.net/blog/respectblox/</guid>
+          <description xml:base="https://otherheaven.net/blog/respectblox/">&lt;h1 id=&quot;hey-hey-hey-wave&quot;&gt;Hey Hey Hey!👋🏿&lt;&#x2F;h1&gt;
+&lt;p&gt;I spent a little bit of yesterday redesigning my hair and hat when some over-designed V-Tuber that wore over 23 different accessory pieces told me that I gotta lock the fuck in. So I said fine.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;Overdesigned.png&quot; alt=&quot;Blockbench Flashbang&quot; title=&quot;Blockbench Concept Work&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Something I forgot the pain of was dreadlocks. There&#x27;s room to do something really cool there, but each strand is the temptation of just clapping your hands and saying it&#x27;s all good. I&#x27;ll explain the hat at another time when I start yapping about the game I&#x27;m working on in secret.&lt;&#x2F;p&gt;
+&lt;p&gt;One of many.&lt;&#x2F;p&gt;
+&lt;p&gt;The best thing about this base mesh that I finally got nailed down is that he&#x27;s way easier to pose and work with than my previous attempts. The character that&#x27;s on Other Heaven&#x27;s landing page doesn&#x27;t even have legs y&#x27;know?&lt;&#x2F;p&gt;
+&lt;p&gt;Or rather, he does, but they are literally just sticks so they may as well not exist.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t feel happy or professional enough to straight up give you the baseMesh, but here&#x27;s the turn around for you to trace over if you want. I have you a black outline to help its shape stand out when you turn the opacity down. (That&#x27;s something I struggled with a lot.)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;maleTurnaround.jpg&quot; alt=&quot;Male Turn Around&quot; title=&quot;Male Turnaround&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;If you actually do want to use the model itself, just contact me and I&#x27;ll make it public for anyone to use. I&#x27;m not a character modeler so my confidence in it is really low lol&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;He even has fingers!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;heHasFingers.jpg&quot; alt=&quot;He Has Fingers!&quot; title=&quot;Male Model Examining New Fingers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For the face, I highly suggest you use 2D Textures on a plane for the eyes, then again for the mouth. It will help you make expressions and such later on with a facial rig. Even if you&#x27;re not animating, if you want to take screenshots and pose, it&#x27;s a pain in the ass to disable the happyEyes layer and enable the sadEyes layer over and over.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a couple of vids on how that happens in both Blender and Blockbench. Basically you&#x27;re going to keyframe UV positions to switch between expressions. I really ought to write that stuff down eventually so when the heat death of the internet comes and all the data rots, I&#x27;ll still have these videos in a different form.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;MmMJuuX5Ago&quot;&gt;BLOCKBENCH - From the Fantastical, MisterGriimm!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;VZYm4mg1Eyo&quot;&gt;BLENDER - From MY BOY WIZ!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, enjoy or whatever.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;novice&quot;&gt;Novice&lt;&#x2F;h1&gt;
+&lt;p&gt;A friend of mine came to me recently telling me that he wanted to make video games and I tried to narrow down exactly what he wanted to do in game development. The answer was inconclusive.&lt;&#x2F;p&gt;
+&lt;p&gt;Coincidentally, at the time, RPGMaker VXAce was FREE on steam. I 100% endorse RPG Maker as an gateway drug into the hellish life of game development.&lt;&#x2F;p&gt;
+&lt;p&gt;For those of you who aren&#x27;t too familiar, RPG Maker is like Scratch but for Video Games. It gives you a bunch of pre-made tooling, everything you need to make a game from beginning to end, and then you can click and drag everything you need from there.&lt;&#x2F;p&gt;
+&lt;p&gt;I refer to RPG Maker as the engine that you don&#x27;t need a keyboard to use. It&#x27;s that simple.&lt;&#x2F;p&gt;
+&lt;p&gt;Even though the name is RPG Maker, you can twist that engine to make many different things, from FPS Dungeon Crawls, to Action-Heavy Zelda Likes. The real limitation is 3D, but you can fake it.&lt;&#x2F;p&gt;
+&lt;p&gt;Those out of bounds ambitions are going to be what wil start to bug you. RPG Maker is great at what it does, but when you try to leave the sandbox it made, you&#x27;re going to crawl through glass. So much so that if the time you spent trying to bend RPG Maker to your whims was used to follow a Godot tutorial, the RPG Maker method would&#x27;ve taken you 3x as long.&lt;&#x2F;p&gt;
+&lt;p&gt;I feel confident enough in saying that to put money down on it. If you want to make a dungeon crawler, you CAN do it with RPG Maker, but I&#x27;m begging you to use Godot instead. You&#x27;ll save yourself SO much headache.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;first-test&quot;&gt;First Test&lt;&#x2F;h1&gt;
+&lt;p&gt;I gave my friend a simple test. A list of objectives to complete to get a feel for what he liked and what he didn&#x27;t.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a Chest with a Potion in it.&lt;&#x2F;li&gt;
+&lt;li&gt;Make the potion kill you when you drink it.&lt;&#x2F;li&gt;
+&lt;li&gt;Change a Dialog Box.&lt;&#x2F;li&gt;
+&lt;li&gt;Make a house and go into that house.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;These seemed like reasonable goals in my head. Each one escalating in difficulty. It touches on everything except for UI Design, but one could argue that learning UI is like learning Graphic Design. For the sake of making games, this usually isn&#x27;t what people think of. It&#x27;s incredibly important, but it&#x27;s not the fantasy.&lt;&#x2F;p&gt;
+&lt;p&gt;Well, he got to the Dialog Box before bringing up to me that the game he wanted to make was an FPS Squad Shooter, not an RPG.&lt;&#x2F;p&gt;
+&lt;p&gt;If I was a shittier friend, maybe I would&#x27;ve said &quot;You need to spend 8000 hours grinding pong game design before you can make your dream game&quot; but I&#x27;m not an idiot. What gets a game done is less skill and more enthusiasm. Even after you spend time grinding out the fundamentals, it can make the road to your dream game smoother, but in the end you still wasted time making shit that you didn&#x27;t want to make.&lt;&#x2F;p&gt;
+&lt;p&gt;Your enthusiasm is lesser and as a result, when you finally DO sit down for your dream game, you are 20 years late.&lt;&#x2F;p&gt;
+&lt;p&gt;Fuck that.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have an open-world survival mmorpg that mixes every single genre under the sun as your dream game, chase it! Don&#x27;t let anyone tell you otherwise! Fly close to the sun and feel how it singes your skin! Fuck these guys out here telling you to take it slow! 80 Years on this planet and 20 are already gone! Get your ass in there!&lt;&#x2F;p&gt;
+&lt;p&gt;So I knocked the idea around. Regardless of if this was true passion or just the fantasy of Game Development that a lot of players get in their head, I wanted to cater to that. I had time to kill and this was my friend so I thought it over.&lt;&#x2F;p&gt;
+&lt;p&gt;Then I came to a startling realization. Didn&#x27;t I already have a platform, one that I grew up playing on, that could help him make his game in a realistic amount of time? Without learning server-client deliniation or a dab of scripting? One that had a co-op development enviroment so that I could work along-side him in real time?&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;sorry-roblox-i-didn-t-respect-your-game&quot;&gt;Sorry Roblox, I didn&#x27;t respect your game!&lt;&#x2F;h1&gt;
+&lt;p&gt;I was a fool! This &quot;Children&#x27;s Platform&quot; nonsense has to fucking END! Roblox Studio is a straight up, real deal, big dick, no frills, LUA ENGINE.&lt;&#x2F;p&gt;
+&lt;p&gt;It didn&#x27;t take me long to realize that after we got in. Brother you will not believe the horrors I&#x27;ve had to deal with fighting against Roblox.&lt;&#x2F;p&gt;
+&lt;p&gt;Like RPG Maker, Roblox technically gives you a bunch of pieces in the sandbox to play with, but while RPG Maker told you to play with the toys in the sandbox, Roblox flies you out to the Sahara Desert in a rickety-dull gray military plane, kicks you out the hangar door with a parachute and a bag of sandbox toys.&lt;&#x2F;p&gt;
+&lt;p&gt;I did NOT know they were playin like this. I used to clown this platform for the same reason people clowned Melee, Minecraft, or Video Games in general! &quot;Isn&#x27;t that for kids?&quot; I WAS A FOOL! FORGIVE ME!&lt;&#x2F;p&gt;
+&lt;p&gt;Like, everything from UI to Physics is in this engine and need to be aknowledged at least a bit to make ANY game. This is the engine for Junior Developers and if I used Roblox Studio before I learned Unreal Engine in college, I would&#x27;ve had a FAR easier time.&lt;&#x2F;p&gt;
+&lt;p&gt;All I remember doing in 2008 was playing those obby courses. I stopped playing when I was 15 or something I think. Since then, Roblox has changed like CRAZY. You can even change out the view models with realistic Blender sculpts!&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I plopped my friend in, dusted off my old account, and now we&#x27;re putting together his squad shooter fps game that has now morphed into a sci-fi extraction shooter with demons. It&#x27;s fun to see how he thinks through problems and digs up solutions using the experience he had playing other games. I&#x27;m still here to keep the wheels on the bike and make sure the game loop doesn&#x27;t expand before it&#x27;s solid, but for the most part, I&#x27;m letting him run wild.&lt;&#x2F;p&gt;
+&lt;p&gt;I want the scope to creep up past this marker that I set,  and while I enforce that we develop within the scope, the longer he looks at all that shit he has left to do.&lt;&#x2F;p&gt;
+&lt;p&gt;Ambition is the first nail I want to hammer into his hands.&lt;&#x2F;p&gt;
+&lt;p&gt;The second nail is time spent doing shit that doesn&#x27;t contribute to the gameplay, but is critical for anything else to work.&lt;&#x2F;p&gt;
+&lt;p&gt;I also taught him to use PenPot, a Figma alternative, to start designing the UI.&lt;&#x2F;p&gt;
+&lt;p&gt;Might even drag a few more friends into the fold to make him take charge as the team lead and point at a direction that he doesn&#x27;t know how to navigate.&lt;&#x2F;p&gt;
+&lt;p&gt;All of these parts are growth points, and the pain of burning in the sun&#x27;s rays and letting the glue of your wings melt are important when it comes to forging a stronger will and ambition.&lt;&#x2F;p&gt;
+&lt;p&gt;Cowards who spend 20 years making games they wouldn&#x27;t ever play don&#x27;t learn this until it&#x27;s too late.&lt;&#x2F;p&gt;
+&lt;p&gt;Roblox is the perfect enviroment to explore all of these pain points, because I can literally script through any problem when he struggles. Of course, there&#x27;s gotta be times when I lie and say &quot;Yeah idk how to do that lol&quot; so he can navigate the lack of expertise, but the entire exercise we&#x27;re going through here is really enjoyable.&lt;&#x2F;p&gt;
+&lt;p&gt;I might just like teaching idk.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I&#x27;m gonna fix the momentum issues in our playerController script because Roblox doesn&#x27;t have Acceleration. They instantly snap from 0 to max speed, which doesn&#x27;t feel good in first person.&lt;&#x2F;p&gt;
+&lt;p&gt;Deuces~ | Luther✌🏿&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
