@@ -7,7 +7,35 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Scrapped Weapons</title>
+          <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/showcase/bladeworks/</link>
+          <guid>https://otherheaven.net/showcase/bladeworks/</guid>
+          <description xml:base="https://otherheaven.net/showcase/bladeworks/">&lt;p&gt;A few years ago, I got added to a game jam (that we couldn&#x27;t finish in time. :] ) and someone brought up the idea of an evolving weapon. I drafted up a few sets. Since the project was scrapped, a lot of GDD work and art was thrown into the trash and it wasn&#x27;t until just now that I thought about dragging this stuff up from my hard drive.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;portfolioImages&#x2F;Swords.png&quot; alt=&quot;Blade Works&quot; title=&quot;Scrapped Weapons&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I might use some of them in projects later, probably after adapting them to 3D, but they were fun to sprite out as well~&lt;&#x2F;p&gt;
+&lt;p&gt;And if you couldn&#x27;t tell, yes it was VERY fun making that fan blade.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Medic Mod</title>
+          <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/showcase/medic/</link>
+          <guid>https://otherheaven.net/showcase/medic/</guid>
+          <description xml:base="https://otherheaven.net/showcase/medic/">&lt;p&gt;I play a lot of Minecraft, especially modded. I&#x27;ve always wanted to make my own pack on the Fabric modloader, but I didn&#x27;t have all the mods I needed to make it happen.&lt;&#x2F;p&gt;
+&lt;p&gt;After months of oo-ing and aa-ing over the right version for me, I settled on 1.21 and went to work on my very first mod.&lt;&#x2F;p&gt;
+&lt;p&gt;Java was hell and Gradle should burn in a pit far away from mortal eyes.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;modrinth.com&#x2F;mod&#x2F;medic!&#x2F;gallery&quot;&gt;Medic! on Modrinth&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve made a few mods since then, Tools of the Apoc and something else I have cooking up that I&#x27;m bug fixing now, but Roblox Development has distracted me a lot lol.&lt;&#x2F;p&gt;
+&lt;p&gt;Also the icon for Medic! was my first time speed sculpting in Blockbench. I did it a lot in Blender and Maya but those works will never see the light of day for as long as I live.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, enjoy the spinning medic crate that isn&#x27;t in the game.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;portfolioImages&#x2F;medicBox.gif&quot; alt=&quot;Medic!&quot; title=&quot;Medic Icon&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Male Character Turnaround</title>
           <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
