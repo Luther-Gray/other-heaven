@@ -4,7 +4,7 @@ date = 2025-04-16
 +++
 # Hey-hey 👋🏿
 
-I remember the first time a classmate in highschool sent me a Adobe XD file in our Graphic Design class to print out on the VERY expensive plastic label filter.
+I remember the first time a classmate in high-school sent me a Adobe XD file in our Graphic Design class to print out on the VERY expensive plastic label filter.
 
 I spent all day downloading XD because my PC didn't have it for some reason, and while I was doing that, I was reading the documentation for what it was, how it worked and why we should use it.
 
@@ -14,7 +14,7 @@ In short, the answer is communication. As all things tend to be.
 
 When you wanted to communicate your vision to a team, you would need to be an artist or an author. An artist can demonstrate their vision with pencil and paper. An author can construct an image within your head with the power of words alone.
 
-In the end, to get exactly what you want from a team of indivisuals, you MUST be able to communicate or demonstrate what it is that you want. Otherwise you'll say things like my clients say.
+In the end, to get exactly what you want from a team of individuals, you MUST be able to communicate or demonstrate what it is that you want. Otherwise you'll say things like my clients say.
 
 "I want it to look like Facebook, except for the contacts, which should work like Twitter kinda."
 
@@ -68,7 +68,7 @@ And also because Figma makes you pay 15 bucks a month to use Inspect Element on 
 
 # If They Wanted To, They WOULD
 
-As someone who works in a company, I promise you that Companies do NOT care about you. No matter how good the social media prescence, no matter how many hearts they put out in the weekly newsletter. You can be fucked up with no warning and even less recourse at their own discression. You cannot have brand/company loyalty today. It's just a stupid thing to do. If they are publically traded, they are evil.
+As someone who works in a company, I promise you that Companies do NOT care about you. No matter how good the social media presence, no matter how many hearts they put out in the weekly newsletter. You can be fucked up with no warning and even less recourse at their own discretion. You cannot have brand/company loyalty today. It's just a stupid thing to do. If they are publicly traded, they are evil.
 
 In unrelated news, here's Discord getting caught talking with bankers about going public on the stock market like Reddit did. -> [Link](https://www.nytimes.com/2025/03/05/technology/discord-ipo.html)
 
