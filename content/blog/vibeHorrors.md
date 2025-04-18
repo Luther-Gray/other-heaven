@@ -87,4 +87,4 @@ Take your time, don't panic, don't feel dread.
 
 And don't fucking Vibe Code.
 
-Take it easy~ | Luther✌🏿z
+Take it easy~ | Luther✌🏿
