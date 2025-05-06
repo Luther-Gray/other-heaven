@@ -7,7 +7,50 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Blockbench &#x27;Vertex Painting&#x27;</title>
+          <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/blog/blockbenchvertex/</link>
+          <guid>https://otherheaven.net/blog/blockbenchvertex/</guid>
+          <description xml:base="https://otherheaven.net/blog/blockbenchvertex/">&lt;h1 id=&quot;ay-yo-wave&quot;&gt;Ay-Yo! 👋🏿&lt;&#x2F;h1&gt;
+&lt;p&gt;I am an ideas guy that has been hollowed out and contorted into the haunted and forlorn shape of a software developer. And there&#x27;s no further proof of that than my time spent architecting my Godot Resources. I thought that sentence sounded cool, but it&#x27;s not why I&#x27;ve arrived, groveling on my hands and knees before you today.&lt;&#x2F;p&gt;
+&lt;p&gt;No, it&#x27;s instead to address the sins I&#x27;ve long since ignored. The whispers of the Standards Demon in my ear.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Where is your flat lighting bro?&quot;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I can&#x27;t- I can&#x27;t do flat lighting.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&quot;Let your textures hang bro. What are you scared of? You have vertex colors to compensate.&quot;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I-...I-...!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&quot;You DO have Vertex Colors in your software of choice right bro? Or do you import your meshes from Blockbench into Blender to add those super critical components of the Lospec Aesthetic?&quot;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;we-used-to-beat-people-with-hammers&quot;&gt;We used to beat people with hammers!&lt;&#x2F;h1&gt;
+&lt;p&gt;And I&#x27;d be at the front of the line! I&#x27;ve been failing my Darkest Dungeon Sanity Checks every time I look at the Blender icon on my computer. I hate using Blender so much. It&#x27;s so convoluted when all I want to do it make my retro art.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s like a plumber having to go into a house with a toolshed on his back instead of just the same 4 tools on his belt and the same 8 fittings in his pocket.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve slowly become &lt;em&gt;that&lt;&#x2F;em&gt; kind of developer. I&#x27;ve grown to LOATHE complexity, and I strip it out of everything I can. That&#x27;s why I&#x27;m on Arch Linux (btw). It&#x27;s why my Minecraft Modlist nukes any mod that clogs my load order with yet another library that no one else uses. It&#x27;s why this very website has NO JavaScript. in its codebase.&lt;&#x2F;p&gt;
+&lt;p&gt;I was never truly a maximalist, but I was a minimalist. I swung back and forth on what I liked, but I&#x27;ve ended up as some strange, malformed creature that does both. In my physical, strong but mortally fragile meaty shell, I&#x27;ve grown to appreciate the aesthetic of clutter. It&#x27;s what brings personality to a space and a story to a home. But digitally, with my overly flowery words that have been spliced pixel by pixel with 1s and 0s, I HATE clutter.&lt;&#x2F;p&gt;
+&lt;p&gt;So imagine my utter horror upon opening Autodesk Maya for the first time in college. I damn near fainted in my fucking seat! I slowly crawled my way back to life, like a fish that found the exact way to shuffle its body to bounce back into the sea. The key all along was just making a custom Shelf.&lt;&#x2F;p&gt;
+&lt;p&gt;Whew. Crisis Averted.&lt;&#x2F;p&gt;
+&lt;p&gt;Photoshop and pretty much every other &quot;Professional&quot; grade piece of software I&#x27;ve had the misfortune of being forced to use at gun-point, have had the same issue. Too many fucking buttons. I use 20 of them max and somehow there are 300 of these things.&lt;&#x2F;p&gt;
+&lt;p&gt;One day, a couple of years after Graduating from University, I was about to go and update my &lt;strong&gt;legally aquired&lt;&#x2F;strong&gt; copy of Autodesk Maya before snapping to the realization that I didn&#x27;t want to run on that treadmill forever. I wanted to rot and grow comfortable with a piece of software that would stay free and wouldn&#x27;t bend me over the barrel to use.&lt;&#x2F;p&gt;
+&lt;p&gt;I already knew about Blender. When I was playing around with making cel-shaded lighting in Unreal Engine back then, Blender Tutorials are the only things that popped up on Youtube. No one could explain how it was done in a game, but everyone could tell you how to render it.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;but-only-in-blender&quot;&gt;But only in Blender&lt;&#x2F;h1&gt;
+&lt;p&gt;There&#x27;s an issue when it comes to the &quot;Professional&quot; space vs the Hobbyist space. All the super cool shit is where the Hobbyists are. Meanwhile those clowns on Polycount want to spend 2 hours arguing with you about why your blade of grass is 3 Tris instead of 1 Tri.&lt;&#x2F;p&gt;
+&lt;p&gt;I knew I had to switch. The &quot;Professional&quot; world was fucking KILLING me. I hated every second of it. So I downloaded Blender, opened it up, picked the 3D General Template, and blacked out! 😊&lt;&#x2F;p&gt;
+&lt;p&gt;I swear it was like a light went off. I woke up covered in coffee and face down on my unvacuumed carpet.&lt;&#x2F;p&gt;
+&lt;p&gt;But I was no coward. I learned to adapt. There was no shelf for me to use, but there was a small hidden menu called Favorites. I grabbed the same 10 fucking tools I use for literally everything, crammed them into the Favorites menu, changed my controls to Industry-Standard, removed as much of the UI as was reasonable and found peace.&lt;&#x2F;p&gt;
+&lt;p&gt;Nirvana.&lt;&#x2F;p&gt;
+&lt;p&gt;The 12 Chakras and 1000 Heavens. I attained peace. Until I tried making a pixel art texture, struggled with UV map warping and wanted to [REDACTED] myself with the longest [REDACTED] I could find.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;blockbench-my-beloved&quot;&gt;Blockbench my Beloved&lt;&#x2F;h1&gt;
+&lt;p&gt;I didn&#x27;t know it was Open-Source. Women will get mad at you because you took too long to meet them in their life, and I was mad at Blockbench because it had the nerve to hide away in the bowels of the Minecraft Community for some reason.&lt;&#x2F;p&gt;
+&lt;p&gt;How many years had I wasted? That&#x27;s a question I never want to answer.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s here now though and things were never the same. Until I wanted to do Vertex Colors.&lt;&#x2F;p&gt;
+&lt;p&gt;Listen bro, the answer is Gradients. Okay? You lower the opacity, pick your UV Shell, Marqee or Wand Select what you need, then Gradient Black to White with a lower opacity. You can even do it on a new layer and Multiply it down at 70% Opacity.&lt;&#x2F;p&gt;
+&lt;p&gt;Honestly, you didn&#x27;t even need Blockbench to do that. I can do it in Aseprite too. Look.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;VertexPaintDiff.png&quot; alt=&quot;VertexBrick&quot; title=&quot;See? I&amp;#39;m not crazy!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Which one has the fake lighting?! Oh god I can&#x27;t tell! 😲&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I&#x27;m over it. Gotta get back to gushing about how cool my custom Godot Resources are and how they are better than yours.&lt;&#x2F;p&gt;
+&lt;p&gt;Bye Felica~ | Luther✌🏿&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Figma Sucks, Use Penpot</title>
           <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
