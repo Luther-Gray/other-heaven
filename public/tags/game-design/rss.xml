@@ -7,7 +7,55 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/tags/game-design/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Some UI Resources</title>
+          <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/blog/uiresources/</link>
+          <guid>https://otherheaven.net/blog/uiresources/</guid>
+          <description xml:base="https://otherheaven.net/blog/uiresources/">&lt;h1 id=&quot;whaaaaa-zaaaaaaapwave&quot;&gt;Whaaaaa-zaaaaaaap👋🏿&lt;&#x2F;h1&gt;
+&lt;p&gt;So I&#x27;ve been doing some work polishing my unannounced game&#x27;s aesthetic and naturally, since I love JRPGs (RPGs are my favorite genre of game in the first place), I&#x27;m leaning heavy into that era of games and tapping into many aesthetics associated with the genre.&lt;&#x2F;p&gt;
+&lt;p&gt;As well as some that are NOT associated with JRPGs.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;ui_resources&#x2F;megamall.png&quot; alt=&quot;megamall&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;But this isn&#x27;t a post about game aesthetics and why I&#x27;m in love with xyz style. It&#x27;s about some UI stuff I&#x27;m doing and the tools I&#x27;m using to smash my vision together as violently as possible.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;first-the-vision&quot;&gt;First the Vision&lt;&#x2F;h1&gt;
+&lt;p&gt;When I&#x27;m thinking about how to make a UI, I usually sketch it out first on paper. I want to get a feel for the perspective and vision clutter that the final product would turn out with.&lt;&#x2F;p&gt;
+&lt;p&gt;But what if you don&#x27;t already have a vision? Inspiration is the answer!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;ui_resources&#x2F;pintrest.png&quot; alt=&quot;pintrest&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Long ago, when I actually still had a soul in this meat husk of a body, I was told by my art teacher that I couldn&#x27;t turn in my work if I didn&#x27;t have at least 5 different pictures of reference.&lt;&#x2F;p&gt;
+&lt;p&gt;Younger, happier, and brighter me thought that was the stupidest thing he had ever heard. &quot;I already made it. It&#x27;s right here. I did it without reference. I could see it in my head. Are you dumb?&quot; I would think to myself in a happier and more innocent tone of inner voice.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t have aphantasia. It was true that I could see images in my head vividly and I was somewhat upset about people who literally had to speak out loud to think to themselves, telling me how the fuck I&#x27;m supposed to do art.&lt;&#x2F;p&gt;
+&lt;p&gt;I didn&#x27;t understand what the point was and so I never did it. But now I do. You gather reference, not to understand what&#x27;s in your head, but to find what isn&#x27;t.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have an inner world like I do, picture a mountain range. You already have a solid idea with a bunch of abstract triangles, some colors depending on the weather you chose, and whatever else. But you probably didn&#x27;t think of trees. What kind of trees are in your mountain range? Spruce? Pine? Something stereotypical I&#x27;m sure.&lt;&#x2F;p&gt;
+&lt;p&gt;But there can be other trees. And the mountains don&#x27;t have to be triangles. That&#x27;s why you gather reference. To see the things you don&#x27;t know. Let them inspire you as much as they guide you.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s my &lt;a href=&quot;https:&#x2F;&#x2F;www.pinterest.com&#x2F;lutherthedev&#x2F;&quot;&gt;Pintrest&lt;&#x2F;a&gt; by the way. You can take a gander of what my style is like, my aesthetic, and pretty much everything else about what I&#x27;m trying to make from this alone. It houses all of my reference images. Which is a fucking crime because if this website shuts down, I&#x27;m FUCKED.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m in the process of moving all my reference images to &lt;a href=&quot;https:&#x2F;&#x2F;beeref.org&#x2F;&quot;&gt;BeeRef&lt;&#x2F;a&gt; (An open source alternative to &lt;a href=&quot;https:&#x2F;&#x2F;www.pureref.com&#x2F;&quot;&gt;PureRef&lt;&#x2F;a&gt;) at this very moment. I encourage you to do the same.&lt;&#x2F;p&gt;
+&lt;p&gt;Local is power! &lt;em&gt;Or something like that.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;those-who-came-before&quot;&gt;Those Who Came Before&lt;&#x2F;h1&gt;
+&lt;p&gt;Ok ok that&#x27;s nice and all. Thanks Luther, for giving me a site that&#x27;s overflowing with AI. But I need a particular UI and I want it to be like a game that I can&#x27;t remember!&lt;&#x2F;p&gt;
+&lt;p&gt;I gotchu.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;ui_resources&#x2F;uidatabase.png&quot; alt=&quot;UIDatabase&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Say hello to the &lt;a href=&quot;https:&#x2F;&#x2F;www.gameuidatabase.com&#x2F;index.php&quot;&gt;UI Database&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;A community contributed website dedicated to documenting game UIs. And it&#x27;s going to save your ass. Need a screen for a button layout? See how the others do it. What about a weapon wheel? Yep. Difficulty Menu? Yes Sir.&lt;&#x2F;p&gt;
+&lt;p&gt;When you don&#x27;t know the exact game, you can just seach the mechanic you want to build from here, and browse till your heart&#x27;s content.&lt;&#x2F;p&gt;
+&lt;p&gt;And if you liked what you saw, support the creator! Eddy is a god and deserve so much more than what he&#x27;s getting!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;buymeacoffee.com&#x2F;gameuidatabase&quot;&gt;Eddy&#x27;s Coffee&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And if you can&#x27;t pay, then at least contribute. If you want to make games, then you obviously play them. Grab some screenshots, and contribute to the site. Especially if you play games with unique UIs. You can help everyone at once.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;drill-down&quot;&gt;Drill down&lt;&#x2F;h1&gt;
+&lt;p&gt;After I&#x27;m done glazing indie sites, I tend to focus in on specific information at this point. I look for specific games and specific pieces of UI and build them up into a image board. Once again, I&#x27;m using BeeRef for this.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;ui_resources&#x2F;cursors.png&quot; alt=&quot;Cursors&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a look at the cursors I&#x27;m going for in my game. Since I work in 3D, it&#x27;s going to be a lot of trial and error to convert these into a way that makes sense with what I&#x27;m going for.&lt;&#x2F;p&gt;
+&lt;p&gt;And what&#x27;s super funny about going after specific UI parts like this is that you&#x27;ll come across others who have already done the majority of the work for you.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter - my god-queen - &lt;a href=&quot;https:&#x2F;&#x2F;champicky.com&#x2F;&quot;&gt;Champy&lt;&#x2F;a&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Champy&#x27;s blog is a hidden treasure trove that contains a LOT of JRPG UI design analysis. And she takes screenshots as well as makes clipped edits to make her different points.&lt;&#x2F;p&gt;
+&lt;p&gt;Font design, credit screens, ability wheels, Champy fucking does it.&lt;&#x2F;p&gt;
+&lt;p&gt;If you don&#x27;t have your own Champy, that sucks for you, because that means you&#x27;ll be going into each game, or finding a high quality video with no commentary of that game, and screenshotting the UI wherever you can find it.&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s a lot more to the process that I didn&#x27;t cover, but that&#x27;s stuff you wouldn&#x27;t be able to replicate with just me telling you anyways. Are you really going to remember Menu Open &amp;amp; Closing Easings? Yeah, thought not.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways, I&#x27;m outtie!&lt;&#x2F;p&gt;
+&lt;p&gt;Later Alligator~ | Luther✌🏿&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Learning to Respect Roblox</title>
           <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
