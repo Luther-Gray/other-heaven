@@ -100,8 +100,33 @@ button:active {
   transition: transform 30ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
+.hNavigation {
+  display: grid;
+  grid: {
+    column: span 2 / span 2;
+    row: span 4 / span 4;
+    column-start: 5;
+    row-start: 1;
+  }
+  background-color: $cardColor;
+  border-color: $cardColor;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  // align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding: 1%;
+}
+
 .navLink {
   max-height: 10rem;
+  max-width: 10rem;
 }
 
 .navBadge {
@@ -338,29 +363,6 @@ li {
   margin: auto;
 }
 
-.hNavigation {
-  display: grid;
-  grid: {
-    column: span 2 / span 2;
-    row: span 4 / span 4;
-    column-start: 5;
-    row-start: 1;
-  }
-  background-color: $cardColor;
-  border-color: $cardColor;
-  border-radius: 1rem;
-  overflow: hidden;
-}
-
-.navBar {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 10%;
-}
-
 .scrobbleContainer {
   height: fit-content;
   padding: 2vh;
@@ -462,7 +464,7 @@ li {
   flex-direction: row;
   gap: 10px;
   padding-left: 10px;
-  animation: 55s carouselR infinite linear;
+  animation: 35s carouselR infinite linear;
 }
 .albumScroll img {
   max-height: unset;
@@ -476,7 +478,7 @@ li {
   flex-direction: row;
   gap: 10px;
   padding-left: 10px;
-  animation: 55s carouselL infinite linear;
+  animation: 35s carouselL infinite linear;
 }
 
 .albumScrollAlt img {

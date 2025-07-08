@@ -40,8 +40,8 @@
     {% endfor %}
   </div>
   <div class="hNavigation">
-    <h1>🗺️ Navigation 🗺️</h1>
 
+    <h1>🗺️ Navigation 🗺️</h1>
     <!-- Last FM Box -->
     <a class="scrobbleContainer" href="https://www.last.fm/user/LutherDev">
       <img
@@ -49,8 +49,19 @@
         class="scrobble"
       />
     </a>
-    <!-- Navigation Buttons -->
+<!-- Navigation Buttons -->
     <nav class="navBar">
+      <a
+        class="navLink"
+        href="{{ get_url(path='@/games/_index.md') }}"
+        rel="nofollow"
+      >
+        <img
+          class="navBadge"
+          src="homeImages/gameIcon.png"
+          alt="Luther's Favorite Games"
+        />
+      </a>
       <a
         class="navLink"
         href="{{ get_url(path='@/blog/_index.md') }}"
@@ -84,8 +95,19 @@
           alt="Luther's Portfolio"
         />
       </a>
+      <a
+        class="navLink"
+        href="{{ get_url(path='@/devlog/_index.md') }}"
+        rel="nofollow"
+      >
+        <img
+          class="navBadge"
+          src="homeImages/devlogIcon.png"
+          alt="Luther's Devlogs"
+        />
+      </a>
+      
     </nav>
-    <h2>⚒️W.I.P⚒️</h2>
   </div>
   <div class="hSocials">
     <h1>💬 Socials & Contact 💬</h1>
