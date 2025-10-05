@@ -7,7 +7,41 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Tech Debt (Amayzin&#x27;!)</title>
+          <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/blog/techdebt/</link>
+          <guid>https://otherheaven.net/blog/techdebt/</guid>
+          <description xml:base="https://otherheaven.net/blog/techdebt/">&lt;h1 id=&quot;happy-fall-wave&quot;&gt;Happy Fall! 👋🏿&lt;&#x2F;h1&gt;
+&lt;p&gt;MY FAVORITE SEASON! AND WHAT BETTER WAY TO SPEND MY TIME THAN TO &lt;strong&gt;REFACTOR MY ENTIRE FUCKING WEBSITE&lt;&#x2F;strong&gt;!! :D&lt;&#x2F;p&gt;
+&lt;p&gt;Ok look, I hate social media. I don&#x27;t have any. Even that Misskey account I have is basically unused. I don&#x27;t enjoy talking about my life in short bursts. I don&#x27;t take pictures of yet another absolutly crazy pork roast that I made. I&#x27;m a simple man with unhinged ideas and one of my favorite things to do is yap like no one else can hear me! And so I was like, huh, why don&#x27;t I start a blog? It can be just like the good ole&#x27; days of Web 2!&lt;&#x2F;p&gt;
+&lt;p&gt;I found a god damned webring, NeoSSG, and said &quot;that&#x27;s what I wanna be apart of!&quot;. Bad choice Luther! You IDIOT! HAHAHAHA!&lt;&#x2F;p&gt;
+&lt;p&gt;I picked Zola because I was still in my &quot;Rust is going to be the future and I should learn it&quot; phase and not in my &quot;I just need this shit to work bro&quot; era. Either way, the more I looked at SSGs, the more I recognized that it&#x27;s right up my alley. I don&#x27;t need auth, I don&#x27;t need accounts, I don&#x27;t use any crazy content or features. State? What the hell do I need to manage state for? I&#x27;m posting a bunch of words.&lt;&#x2F;p&gt;
+&lt;p&gt;Normally, you can do that with some HTML, right? But it&#x27;s SO FUN to write in markdown bro. I can&#x27;t get enough of this!&lt;&#x2F;p&gt;
+&lt;p&gt;No messy tags, no cramped writing enviroment, emoji, headers, bold, I&#x27;m free-flowing! And in that way, making this site as an SSG was 100% worth it.&lt;&#x2F;p&gt;
+&lt;p&gt;However-&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;dun-dun-duuuun&quot;&gt;Dun-Dun-Duuuun!&lt;&#x2F;h1&gt;
+&lt;p&gt;On more than one occasion, I basically face-plant into a brick wall called &quot;No Javascript&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve used so many different HACKS to get different things on this site to work the way I want and now it&#x27;s come back to bite me, mainly in the form of overlapping styles.&lt;&#x2F;p&gt;
+&lt;p&gt;I do this shit for a job. I knew the importance of consistent styling and style scope. And yet, here I am, using a flex box that is the wrong size and doesn&#x27;t scale properly in its container.&lt;&#x2F;p&gt;
+&lt;p&gt;I gotta fix that.&lt;&#x2F;p&gt;
+&lt;p&gt;But if I fix that, then I have to basically remake EVERY SCSS class. I have comments and it STILL is a mess. And that&#x27;s just a part of the problem, right?&lt;&#x2F;p&gt;
+&lt;p&gt;Certain parts of this site just don&#x27;t work well on mobile or smaller screens. It&#x27;s not responsive because my @media queries aren&#x27;t there. Then those HACK features I put together, like image carosels that are literally repeating div image chains...&lt;&#x2F;p&gt;
+&lt;p&gt;Bro, this is NOT doable.&lt;&#x2F;p&gt;
+&lt;p&gt;I love markdown, I love being able to basically just make a md file and rant like a loon while yet another blog post is added to my list.&lt;&#x2F;p&gt;
+&lt;p&gt;But I have to admit it. I want Javascript. I MISS Javascript! I can&#x27;t believe I said it out loud.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;scandelous&quot;&gt;Scandelous!&lt;&#x2F;h1&gt;
+&lt;p&gt;I feel like I&#x27;ve let some god of purity down! Raw HTML and CSS! That was the plan! Neat, tidy, small! And what&#x27;s happened to me is what happens to everyone who tries minimalism. It&#x27;s amazing just how much of a mess you make when you don&#x27;t have a lot of shit in the first place!&lt;&#x2F;p&gt;
+&lt;p&gt;I keep thinking over my technical requirements, and why I even need an SSG. Why didn&#x27;t I just use raw HTML files???? Why did I need a framework???? Can&#x27;t I just, parse this stuff myself? Even my last.fm recently played is only looking like that because I can&#x27;t use my own Javascript! It&#x27;s a mess! I&#x27;m a MESS!&lt;&#x2F;p&gt;
+&lt;p&gt;And damn dude I want a fresh coat of paint. A complete refactor that aligns closer with my original vision. Or maybe I&#x27;ll make a new one.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t know.&lt;&#x2F;p&gt;
+&lt;p&gt;But this site, as it is now, I&#x27;m starting an active renovation!&lt;&#x2F;p&gt;
+&lt;p&gt;Also, webrings and this entire Web 2 fad is bunk. I&#x27;m just gonna do full indie, Web 2 movement or not.  I love the blinkies tho. I have to design something that lets me keep them. They are VERY fun.&lt;&#x2F;p&gt;
+&lt;p&gt;YAKWTFIGO~ | Luther✌🏿&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>I Shouldn&#x27;t Have Read Jack Vance</title>
           <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
