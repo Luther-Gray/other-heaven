@@ -219,7 +219,6 @@ li {
 }
 
 /* ~SECTIONS | INDEX~ */
-
 .parent {
   display: grid;
   grid: {
@@ -440,7 +439,6 @@ li {
 }
 
 /* ~SECTIONS | RESOURCES~ */
-
 .scrollManager {
   display: flex;
   flex-direction: column;
@@ -513,4 +511,18 @@ li {
 
 .albumContainer:hover .albumScrollAlt {
   animation-play-state: paused;
+}
+/* ~SECTION - DEVLOG~ */
+.devLogContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.devLogItem {
+  display: flex;
+  margin: 5px;
+  width: 100%;
+  max-width: 500px;
 }

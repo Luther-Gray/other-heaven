@@ -1,15 +1,14 @@
 {% extends "base.html" %} {% block content %}
 <div class="blogContainer">
     <h1 class="title">{{ section.title }}</h1>
-    <ul>
-        {% for page in section.pages %}
-        <li>
-            <a href="{{ page.permalink | safe }}"
-                >{{ page.title }} | {{page.date}}</a
-            >
-        </li>
-        {% endfor %}
-    </ul>
+    <div class="devLogContainer">
+        <div class="devLogItem">
+            <!-- May -->
+            <img src="/devLogImages/may01.png" />
+            <img src="/devLogImages/may02.png" />
+            <!-- June -->
+        </div>
+    </div>
     <a href="/"><img src="/Button-Return-Home.png" alt="Return to Home Page" class="hReturn"/></a>
 </div>
 {% endblock content %}
