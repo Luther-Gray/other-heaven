@@ -1,1 +1,0 @@
-# Styles in the Styles folder are for broad page work. They do not touch on indivisual components. If you want the styling for a component, go to that component's folder.
