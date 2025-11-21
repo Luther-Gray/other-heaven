@@ -1,15 +1,38 @@
 ---
-import '../styles/global.scss';
+import "../styles/global.scss";
+import "../styles/index.scss";
 ---
+
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/Other-Heaven.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Other Heaven</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/Other-Heaven.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Other Heaven</title>
+    <script>
+      import { ModelViewerElement } from "@google/model-viewer";
+      if (
+        typeof customElements !== "undefined" &&
+        !customElements.get("model-viewer")
+      ) {
+        customElements.define("model-viewer", ModelViewerElement);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="LutherContainer">
+      <model-viewer class="Luther"
+        src="src/3d/AstroLuther-DARE.gltf"
+        camera-controls
+		interaction-prompt = none
+		auto-rotate
+		auto-rotate-delay = 1200
+		rotation-per-second = 120%
+        autoplay
+		shadow-intensity = 0
+		shadow-softness = 0
+        animation-name="DARE"/>
+    </div>
+  </body>
 </html>
