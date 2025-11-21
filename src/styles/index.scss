@@ -1,11 +1,46 @@
+//Import
+@use 'variables' as *;
+
 // Index/Homepage Styling
+.IndexBannerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.DareFont {
+    font-family: Brutal;
+    font-weight: 900;
+    font-size: 10vh;
+    color: $colorYellow;
+}
+
+.StrangeFont {
+    font-family: Jacquard;
+    font-size: 10vh;
+    color: $colorGreen;
+}
+
+.LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.Logo {
+
+}
+
 .LutherContainer {
     display: flex;
-    width: 1000px;
-    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vh;
 }
 
 .Luther {
-    width: inherit;
-    height: inherit;
+    width: 50vw;
+    height: 50vh;
 }

@@ -21,18 +21,22 @@ import "../styles/index.scss";
     </script>
   </head>
   <body>
+    <div class="IndexBannerContainer">
+        <h1 class="DareFont">DARE TO BE</h1><h1 class="StrangeFont">[Strange]</h1>
+    </div>
     <div class="LutherContainer">
-      <model-viewer class="Luther"
+      <model-viewer
+        class="Luther"
         src="src/3d/AstroLuther-DARE.gltf"
         camera-controls
-		interaction-prompt = none
-		auto-rotate
-		auto-rotate-delay = 1200
-		rotation-per-second = 120%
+        interaction-prompt="none"
+        auto-rotate
+        auto-rotate-delay="1200"
+        rotation-per-second="120%"
         autoplay
-		shadow-intensity = 0
-		shadow-softness = 0
-        animation-name="DARE"/>
+        shadow-intensity="0"
+        shadow-softness="0"
+        animation-name="DARE"></model-viewer>
     </div>
   </body>
 </html>
