@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/model-viewer": "^4.1.0",
+    "animejs": "^4.2.2",
     "astro": "^5.14.1"
   },
   "devDependencies": {
