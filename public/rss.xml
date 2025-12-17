@@ -7,7 +7,45 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://otherheaven.net/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Wed, 17 Dec 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>SVG Despair and other thoughts</title>
+          <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+          <author>Luther Gray</author>
+          <link>https://otherheaven.net/blog/svgdespair/</link>
+          <guid>https://otherheaven.net/blog/svgdespair/</guid>
+          <description xml:base="https://otherheaven.net/blog/svgdespair/">&lt;h1 id=&quot;what-s-up-wave&quot;&gt;WHAT&#x27;S UP?!👋🏿&lt;&#x2F;h1&gt;
+&lt;p&gt;Architecting the new site is taking WAY longer than I thought because I&#x27;ve had to flick between &lt;strong&gt;3 DIFFERENT MEDIUMS NOW!&lt;&#x2F;strong&gt; My first thought was to do a lot more Pixel Art stuff because I only lightly touched on that with this site.&lt;&#x2F;p&gt;
+&lt;p&gt;But then I was like, &quot;Well, why not lean into some things that maybe I don&#x27;t have a lot of experience maniupulating? Like SVGs?&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m an IDIOT! HAHAHAHA WHAT WAS I THINKING?!&lt;&#x2F;p&gt;
+&lt;p&gt;Did you know that the expected usecase for an SVG implimentation is apparently to either:&lt;&#x2F;p&gt;
+&lt;p&gt;A- Import the SVG as a static IMG, which completely defeats the point of me making this fucking thing outside of scaling. But who the fuck needs that level of detail? Have you zoomed in on the OtherHeaven logo??? Well??? Of course you haven&#x27;t! SO WHY THE FUCK WOU-&lt;&#x2F;p&gt;
+&lt;p&gt;B- Import the SVG as CODE and RAW. Unfiltered, unprotected, minified, and looking for trouble! A god damned hoodlum that takes up hundreds of line all by itself! There&#x27;s NO SHOT THIS IS WHAT I NEED TO DO!&lt;&#x2F;p&gt;
+&lt;p&gt;The thing I drew in Inkscape after a painstaking 10 hours of precision work is THOUSANDS of lines long in terms of data. And all I wanted to do with it, is animate an inner path. No spoilers, so use your imagination.&lt;&#x2F;p&gt;
+&lt;p&gt;I can&#x27;t begin to tell you how goofy this all is! Is this really how SVGs get maniuplated? It&#x27;s crazy! Why are we still living like cavemen?!&lt;&#x2F;p&gt;
+&lt;p&gt;Well, I&#x27;m not fixing it. So I&#x27;ll just do everything in 3D. But DAMN DUDE THAT&#x27;S NUTS!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;fear-of-perception&quot;&gt;Fear of Perception&lt;&#x2F;h1&gt;
+&lt;p&gt;On my Youtube Channel, I do have one of those btw, I made a video recently that blew WAY up beyond what I normally get. This was like, the second plane hitting the towers for me! It&#x27;s bizarre, I&#x27;M BIZARRE, but I can&#x27;t stand the idea of drawing people with one video because then they&#x27;re expecting me to keep playing the same damn song and doing the same damn dance routine.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t like the expecation or the burden. I&#x27;m a VERY raw guy. I don&#x27;t enjoy speaking in circles, I don&#x27;t like talking like HR is in the room, and I HATE being dishonest with others and moreso myself. I&#x27;m not reckless and I don&#x27;t desire to be an asshole, though I do end up looking that way, but I think it&#x27;s so important that if you see me, you don&#x27;t get this idea that I&#x27;m a saint or someone that should be admired.&lt;&#x2F;p&gt;
+&lt;p&gt;Call it avoidant or call it the fear of perception, but it results in the same knee-jerk response from me! I&#x27;m not worried about negative responses. I&#x27;m VERY quick to just write people off if they can&#x27;t engage properly, and those who do engage, usually bring up interesting points that I love reading through. The negativity isn&#x27;t my issue, like it seems to be for most creatives like me. No it&#x27;s just the idea that a freak like me goes way higher than he&#x27;s supposed to go, and the effects that has on me and the people around me.&lt;&#x2F;p&gt;
+&lt;p&gt;I grew up on the internet more or less. It&#x27;s my backyard, and I used to have every &quot;Rule of the Internet&quot; memorized. Not so much anymore. The point is, I&#x27;m a digital native of the deepest kind. I&#x27;m also a firm believer that things are worse now than they were back then. Anonymity went from a shield to a weapon. Reasonable voices stopped being rewarded as much as extreme voices did. And extreme voices are spoken by the nastiest of people.&lt;&#x2F;p&gt;
+&lt;p&gt;Whenever I think about the lonlieness epidemic that we all seem to be going through, all over the world, the answer always comes back to the internet. The mass adoption of an inherently clustering technology. But I&#x27;m not a doomer. I do think things will get better as we continue to fragment and shatter into different spheres and bubbles. This site is a part of my bubble. My Youtube is another part. And I don&#x27;t want nor need an insane amount of people intruding into my bubble.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m an unhinged guy and I love unhinged people with strange thoughts and ideas. The bizarre is my lifespring. I don&#x27;t mean the grotesque. I really do mean the &lt;strong&gt;strange&lt;&#x2F;strong&gt;. The &lt;strong&gt;unique&lt;&#x2F;strong&gt;. The &lt;strong&gt;other&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not saying the line.&lt;&#x2F;p&gt;
+&lt;p&gt;To be bizarre, you&#x27;re already going to be an outsider. A stranger that sits on the margins. That&#x27;s my jam. Those are my people. Even without the skills to back up their thoughts, they always stand out to me as kin. Like a candle in a dark place. Or a spash of color on a white canvas.&lt;&#x2F;p&gt;
+&lt;p&gt;Whatever, you get it. TLDR I&#x27;m cool and you&#x27;re lame, moving on!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;yet-another-redesign&quot;&gt;Yet ANOTHER Redesign&lt;&#x2F;h1&gt;
+&lt;p&gt;Check this out!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;svgDespair.png&quot; alt=&quot;Redesign&quot; title=&quot;Luther&amp;#39;s Character Redesign&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;ISN&#x27;T THAT SICK?! HAHAHAHHA!&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m using this character as the center of the site-redesign. Little guy we already have on this site is going to be retired, but I love him all the same!!! It&#x27;s just so nice to have something flexible that I can put into all kinds of poses and situations.&lt;&#x2F;p&gt;
+&lt;p&gt;Also I have this on the back!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;blogImages&#x2F;svgDespair2.png&quot; alt=&quot;Redesign&quot; title=&quot;Luther&amp;#39;s Character Redesign&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;DO YOU SEE THE EYES TOO?! YEAH MAN I HAVE LIKE 8 DIFFERENT EYE POSES! AHHHHHHHHHH I LOVE IT!&lt;&#x2F;p&gt;
+&lt;p&gt;Ok, anyways I got a lot more to do and I&#x27;m done gushing.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m running out of ways to say cya lol~ | Luther✌🏿&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Tech Debt (Amayzin&#x27;!)</title>
           <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
