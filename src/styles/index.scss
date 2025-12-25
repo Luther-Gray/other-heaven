@@ -33,7 +33,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0vh;
+  height: 100%;
+  width: 100%;
 }
 
 .LutherContainer a {
@@ -46,7 +47,7 @@
 }
 
 .Luther {
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 70vh;
   z-index: -1;
 }

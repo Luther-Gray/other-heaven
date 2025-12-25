@@ -29,3 +29,62 @@
     - Software Dev Logs
     - Hardware Build Logs
 7. Socials - I can't be found everywhere, but I do have contacts that you can find to keep up with me or contact me. No extra pages needed here.
+
+---
+
+NOTE ABOUT MODEL SHADING
+
+I had to Edit the GLTFs of the models using the following tweaks:
+
+1. Just after "Assets", I added
+`"extensionsUsed":[
+    "KHR_materials_unlit"
+  ],
+` So now, the top of the GLTF looks like
+
+```
+{
+  "asset": { "version": "2.0", "generator": "Blockbench 5.0.4 glTF exporter" },
+  "extensionsUsed":[
+    "KHR_materials_unlit"
+  ],
+  ...
+```
+
+2. In "Materials"[], I had to add
+    `
+    "extensions": {
+        "KHR_materials_unlit": {}
+      },
+    `
+    So now that Array looks like
+
+    ```
+    "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": { "index": 0 }
+      },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.05,
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": { "index": 1 }
+      },
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "alphaMode": "MASK",
+      ...
+    ```
+
+Together, these tweaks allow me to keep using the Model Viewer, but with Blockbench's unshaded models.
