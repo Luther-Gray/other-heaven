@@ -43,11 +43,19 @@
   left: 50%;
   transform: rotate(calc(var(--i) * 60deg)) translate(20vh)
     rotate(calc(var(--i) * -60deg));
-    z-index: 0;
+    z-index: 10;
 }
 
 .Luther {
-  width: 70vw;
-  height: 70vh;
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
   z-index: -1;
+}
+
+.Sigil {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
 }

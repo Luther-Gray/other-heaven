@@ -23,13 +23,20 @@ import "../styles/index.scss";
   <body>
     <div class="LutherContainer">
       <div class="RoutesContainer">
-        <a style="--i:0;">A</a>
-        <a style="--i:1;">B</a>
-        <a style="--i:2;">C</a>
-        <a style="--i:3;">D</a>
-        <a style="--i:4;">E</a>
-        <a style="--i:5;">F</a>
+        <a style="--i:0;">Blog</a>
+        <a style="--i:1;">Portfolio</a>
+        <a style="--i:2;">Music</a>
+        <a style="--i:3;">Dev Logs</a>
+        <a style="--i:4;">Games</a>
+        <a style="--i:5;">Socials</a>
       </div>
+      <model-viewer
+        class="Sigil"
+        src="src/3d/ThelmaSigil.gltf"
+        camera-controls
+        interaction-prompt="none"
+        autoplay
+        animation-name="OtherHeaven"></model-viewer>
       <model-viewer
         class="Luther"
         src="src/3d/AstroLuther-DARE.gltf"
@@ -43,3 +50,16 @@ import "../styles/index.scss";
     </div>
   </body>
 </html>
+
+<script>
+import type { ModelViewerElement } from "@google/model-viewer";
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const sigilViewer = document.querySelector('.Sigil') as ModelViewerElement;
+    if (sigilViewer) {
+      sigilViewer.addEventListener('load', () => {
+        sigilViewer.timeScale = 0.1;
+      });
+    }
+  });
+</script>
