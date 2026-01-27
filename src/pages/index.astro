@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import "../styles/global.scss";
 import "../styles/index.scss";
 ---
@@ -24,15 +25,11 @@ import "../styles/index.scss";
     <div class="LutherContainer">
       <model-viewer
         class="Luther"
-        src="OtherHeaven.gltf"
-        ar
-        ar-modes="webxr scene-viewer quick-look"
+        src="src/3d/OtherHeaven.gltf"
+        interaction-prompt="none"
         camera-controls
-        tone-mapping="neutral"
-        shadow-intensity="1"
         autoplay
-        camera-orbit="-77.82deg 90.51deg 36.97m"
-        field-of-view="14.77deg"></model-viewer>
+        camera-target="0m 3.268m 0m" camera-orbit="-66.98deg 80.57deg 49.72m" field-of-view="10deg"></model-viewer>
       <img class="Background" src="/src/images/Day.jpg" />
     </div>
   </body>
