@@ -22,44 +22,18 @@ import "../styles/index.scss";
   </head>
   <body>
     <div class="LutherContainer">
-      <div class="RoutesContainer">
-        <a style="--i:0;">Blog</a>
-        <a style="--i:1;">Portfolio</a>
-        <a style="--i:2;">Music</a>
-        <a style="--i:3;">Dev Logs</a>
-        <a style="--i:4;">Games</a>
-        <a style="--i:5;">Socials</a>
-      </div>
-      <model-viewer
-        class="Sigil"
-        src="src/3d/ThelmaSigil.gltf"
-        camera-controls
-        interaction-prompt="none"
-        autoplay
-        animation-name="OtherHeaven"></model-viewer>
       <model-viewer
         class="Luther"
-        src="src/3d/AstroLuther-DARE.gltf"
+        src="OtherHeaven.gltf"
+        ar
+        ar-modes="webxr scene-viewer quick-look"
         camera-controls
-        interaction-prompt="none"
-        auto-rotate
-        auto-rotate-delay="1200"
-        rotation-per-second="120%"
+        tone-mapping="neutral"
+        shadow-intensity="1"
         autoplay
-        animation-name="DARE"></model-viewer>
+        camera-orbit="-77.82deg 90.51deg 36.97m"
+        field-of-view="14.77deg"></model-viewer>
+      <img class="Background" src="/src/images/Day.jpg" />
     </div>
   </body>
 </html>
-
-<script>
-import type { ModelViewerElement } from "@google/model-viewer";
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const sigilViewer = document.querySelector('.Sigil') as ModelViewerElement;
-    if (sigilViewer) {
-      sigilViewer.addEventListener('load', () => {
-        sigilViewer.timeScale = 0.1;
-      });
-    }
-  });
-</script>

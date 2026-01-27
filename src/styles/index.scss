@@ -22,40 +22,25 @@
   color: $colorGreen;
 }
 
-.LogoContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
-}
-
-.LutherContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.LutherContainer a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: rotate(calc(var(--i) * 60deg)) translate(20vh)
-    rotate(calc(var(--i) * -60deg));
-    z-index: 10;
-}
+// .LutherContainer {
+//   width: 100%;
+//   height: 100%;
+// }
 
 .Luther {
   position: absolute;
-  width: 60vw;
-  height: 60vh;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.Background {
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 
-.Sigil {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: -2;
+.IndexIcons {
+  width: 10vw;
+  height: 10vh;
 }
