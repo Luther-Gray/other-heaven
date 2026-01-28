@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from "astro:transitions";
 import "../styles/global.scss";
 import "../styles/index.scss";
 ---
@@ -22,7 +23,10 @@ import "../styles/index.scss";
   </head>
   <body>
     <div class="LutherContainer">
-      <div ><a href="/src/pages/portfolio" class="Routes">Hello World! This is a Link!</a></div>
+      <div>
+        <a href="/src/pages/portfolio" class="Routes"
+          >Hello World! This is a Link!</a>
+      </div>
       <model-viewer
         class="Luther"
         src="src/3d/OtherHeaven.gltf"
@@ -31,9 +35,21 @@ import "../styles/index.scss";
         autoplay
         camera-target="0m 3.268m 0m"
         camera-orbit="-61.96deg 86.43deg 1.0m"
-        field-of-view="12deg"></model-viewer>
+        field-of-view="12deg"
+        >
+        <button
+          class="Hotspot"
+          slot="hotspot-1"
+          id="musicCtrl"
+          data-surface="150 0 56 57 58 0.330 0.663 0.007"
+          data-visibility-attribute="visible"
+        >
+          <div class="Play">Play!</div>
+        </button></model-viewer
+      >
       <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />
     </div>
+    // Changes Background based on Time of Day.
     <script>
       const updateBG = () => {
         const hour = new Date().getHours();
@@ -49,6 +65,68 @@ import "../styles/index.scss";
         }
       };
       updateBG();
+    </script>
+    // Controls for Music & Music Swap Logic
+    <script>
+      const playlist = {
+        Sunday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Monday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Tuesday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Wednesday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Thursday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Friday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        Saturday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        },
+        default: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg"
+        }
+      }
+      const audio = new Audio()
+      audio.loop = true
+      const musicCtrl = document.getElementById('musicCtrl')
+      let isPlaying = false
+      const toggleMusic = () => {
+        if (!isPlaying) {
+          audio.src = getTrack()
+          audio.play()
+          musicCtrl?.classList.add('playing')
+
+        } else {
+          audio.pause()
+          musicCtrl?.classList.remove('playing')
+        }
+        isPlaying = !isPlaying
+      }
+      const getTrack = () => {
+        const now = new Date()
+        const dayName = new Intl.DateTimeFormat('en-US', {weekday: 'long'}).format(now)
+        const hour = now.getHours()
+        const isDay = hour >= 6 && hour < 17;
+        const dayData = playlist[dayName as keyof typeof playlist] || playlist.default
+        return isDay ? dayData.day : dayData.night
+      }
+      musicCtrl?.addEventListener('click', toggleMusic)
     </script>
   </body>
 </html>

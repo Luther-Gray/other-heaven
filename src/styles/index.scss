@@ -51,3 +51,41 @@
   width: 10vw;
   height: 10vh;
 }
+
+.Hotspot {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  border: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.Hotspot:hover {
+  transform: scale(1.2);
+}
+
+/* Make it pulse when playing */
+.Hotspot.playing {
+  background: $colorGreen; /* Or a color from your scene */
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 $colorYellow; }
+  70% { box-shadow: 0 0 0 10px rgba(255, 0, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 0, 255, 0); }
+}
+
+.Play {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid white;
+  margin: auto;
+  font-size: $mediumFont;
+  color: $colorGreen;
+  text-shadow: 2px 2px 0 $colorBlack
+}
