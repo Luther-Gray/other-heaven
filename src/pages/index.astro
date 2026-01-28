@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import "../styles/global.scss";
 import "../styles/index.scss";
 ---
@@ -23,6 +22,7 @@ import "../styles/index.scss";
   </head>
   <body>
     <div class="LutherContainer">
+      <div ><a href="/src/pages/portfolio" class="Routes">Hello World! This is a Link!</a></div>
       <model-viewer
         class="Luther"
         src="src/3d/OtherHeaven.gltf"
@@ -30,9 +30,25 @@ import "../styles/index.scss";
         camera-controls
         autoplay
         camera-target="0m 3.268m 0m"
-        camera-orbit="-66.98deg 80.57deg 49.72m"
-        field-of-view="10deg"></model-viewer>
-      <img class="Background" src="/src/images/Day.jpg" />
+        camera-orbit="-61.96deg 86.43deg 1.0m"
+        field-of-view="12deg"></model-viewer>
+      <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />
     </div>
+    <script>
+      const updateBG = () => {
+        const hour = new Date().getHours();
+        const BG = document.getElementById("dynamicBG") as HTMLImageElement;
+        if (!BG) return;
+
+        if (hour >= 6 && hour < 17) {
+          BG.src = "/src/images/Day.jpg";
+        } else if (hour >= 17 && hour < 20) {
+          BG.src = "/src/images/Sunset.jpg";
+        } else {
+          BG.src = "/src/images/Night.jpg";
+        }
+      };
+      updateBG();
+    </script>
   </body>
 </html>
