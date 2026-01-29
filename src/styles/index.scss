@@ -71,27 +71,27 @@
   --radius: 30vh;
 }
 
-.HalfMoon .Routes:nth-child(1) {
+.HalfMoon .Routes:nth-child(6) {
     transform: rotate(90deg) translate(var(--radius)) rotate(-90deg);
 }
 
-.HalfMoon .Routes:nth-child(2) {
+.HalfMoon .Routes:nth-child(5) {
     transform: rotate(126deg) translate(var(--radius)) rotate(-126deg);
 }
 
-.HalfMoon .Routes:nth-child(3) {
+.HalfMoon .Routes:nth-child(4) {
     transform: rotate(162deg) translate(var(--radius)) rotate(-162deg);
 }
 
-.HalfMoon .Routes:nth-child(4) {
+.HalfMoon .Routes:nth-child(3) {
     transform: rotate(198deg) translate(var(--radius)) rotate(-198deg);
 }
 
-.HalfMoon .Routes:nth-child(5) {
+.HalfMoon .Routes:nth-child(2) {
     transform: rotate(234deg) translate(var(--radius)) rotate(-234deg);
 }
 
-.HalfMoon .Routes:nth-child(6) {
+.HalfMoon .Routes:nth-child(1) {
     transform: rotate(270deg) translate(var(--radius)) rotate(-270deg);
 }
 
