@@ -11,6 +11,7 @@ import "../styles/index.scss";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Other Heaven</title>
+    <ClientRouter />
     <script>
       import { ModelViewerElement } from "@google/model-viewer";
       if (
@@ -23,9 +24,26 @@ import "../styles/index.scss";
   </head>
   <body>
     <div class="LutherContainer">
-      <div>
+      <div class="HalfMoon">
+        <slot />
         <a href="/src/pages/portfolio" class="Routes"
-          >Hello World! This is a Link!</a>
+          ><img class="IndexIcons" src="/src/icons/Portfolio.png" /></a
+        >
+        <a href="/src/pages/blog" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Blog.png" /></a
+        >
+        <a href="/src/pages/devlog" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Devlog.png" /></a
+        >
+        <a href="/src/pages/games" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Games.png" /></a
+        >
+        <a href="/src/pages/music" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Music.png" /></a
+        >
+        <a href="/src/pages/social" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Social.png" /></a
+        >
       </div>
       <model-viewer
         class="Luther"
@@ -39,12 +57,12 @@ import "../styles/index.scss";
         camera-orbit="-61.96deg 91.43deg 5.5%"
         min-field-of-view="2deg"
         field-of-view="25deg"
-        >
+      >
         <button
           class="Hotspot"
           slot="hotspot-1"
           id="musicCtrl"
-          data-surface="150 0 56 57 58 0.330 0.663 0.007"
+          data-surface="145 0 8 10 11 0.308 0.114 0.579"
           data-visibility-attribute="visible"
         >
           <div class="Play">Play!</div>
@@ -52,7 +70,6 @@ import "../styles/index.scss";
       >
       <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />
     </div>
-    // Changes Background based on Time of Day.
     <script>
       const updateBG = () => {
         const hour = new Date().getHours();
@@ -69,67 +86,68 @@ import "../styles/index.scss";
       };
       updateBG();
     </script>
-    // Controls for Music & Music Swap Logic
     <script>
       const playlist = {
         Sunday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Monday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Tuesday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Wednesday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Thursday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Friday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         Saturday: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
+          night: "/src/audio/Iwatodai-Dorm.ogg",
         },
         default: {
           day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg"
-        }
-      }
-      const audio = new Audio()
-      audio.loop = true
-      const musicCtrl = document.getElementById('musicCtrl')
-      let isPlaying = false
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+      };
+      const audio = new Audio();
+      audio.loop = true;
+      const musicCtrl = document.getElementById("musicCtrl");
+      let isPlaying = false;
       const toggleMusic = () => {
         if (!isPlaying) {
-          audio.src = getTrack()
-          audio.play()
-          musicCtrl?.classList.add('playing')
-
+          audio.src = getTrack();
+          audio.play();
+          musicCtrl?.classList.add("playing");
         } else {
-          audio.pause()
-          musicCtrl?.classList.remove('playing')
+          audio.pause();
+          musicCtrl?.classList.remove("playing");
         }
-        isPlaying = !isPlaying
-      }
+        isPlaying = !isPlaying;
+      };
       const getTrack = () => {
-        const now = new Date()
-        const dayName = new Intl.DateTimeFormat('en-US', {weekday: 'long'}).format(now)
-        const hour = now.getHours()
+        const now = new Date();
+        const dayName = new Intl.DateTimeFormat("en-US", {
+          weekday: "long",
+        }).format(now);
+        const hour = now.getHours();
         const isDay = hour >= 6 && hour < 17;
-        const dayData = playlist[dayName as keyof typeof playlist] || playlist.default
-        return isDay ? dayData.day : dayData.night
-      }
-      musicCtrl?.addEventListener('click', toggleMusic)
+        const dayData =
+          playlist[dayName as keyof typeof playlist] || playlist.default;
+        return isDay ? dayData.day : dayData.night;
+      };
+      musicCtrl?.addEventListener("click", toggleMusic);
     </script>
   </body>
 </html>
