@@ -27,22 +27,22 @@ import "../styles/index.scss";
       <div class="HalfMoon">
         <slot />
         <a href="/portfolio/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Portfolio.png" /></a
-        >
-        <a href="/blog/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Blog.png" /></a
+          ><img class="IndexIcons" src="/src/icons/Portfolio.png" />Portfolio</a
         >
         <a href="/devlog/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Devlog.png" /></a
+          ><img class="IndexIcons" src="/src/icons/Devlog.png" />Devlog</a
         >
         <a href="/games/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Games.png" /></a
+          ><img class="IndexIcons" src="/src/icons/Games.png" />Games</a
+        >
+        <a href="/blog/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Blog.png" />Blog</a
         >
         <a href="/music/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Music.png" /></a
+          ><img class="IndexIcons" src="/src/icons/Music.png" />Music</a
         >
         <a href="/social/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Social.png" /></a
+          ><img class="IndexIcons" src="/src/icons/Social.png" />Socials</a
         >
       </div>
       <model-viewer
@@ -53,7 +53,7 @@ import "../styles/index.scss";
         autoplay
         camera-target="-1m 0.9m 0.3m"
         camera-projection="orthographic"
-        min-camera-orbit="-90deg -10deg 0.01%"
+        min-camera-orbit="-360deg 50deg 0.01%"
         camera-orbit="-61.96deg 91.43deg 5.5%"
         min-field-of-view="2deg"
         field-of-view="25deg"
@@ -65,7 +65,7 @@ import "../styles/index.scss";
           data-surface="145 0 8 10 11 0.308 0.114 0.579"
           data-visibility-attribute="visible"
         >
-          <div class="Play">Play!</div>
+          <img src="/src/icons/Play.png" />
         </button></model-viewer
       >
       <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />

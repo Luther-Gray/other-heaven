@@ -11,21 +11,19 @@ body{
     min-height: 100vh;
 }
 
-// Transition
-@keyframes curtainOut {
-    from {
-        transform: translateY(0%);
-    }
-    to {
-        transform: translateY(-100%);
-    }
+a {
+    text-decoration: none;
 }
 
-@keyframes curtainIn {
-    from {
-        transform: translateY(100%);
-    }
-    to {
-        transform: translateY(0%);
-    }
+// Back/Home Icons
+.HomeIcon {
+  width: 10vh;
+  height: auto;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.HomeIcon:hover {
+  transform: scale(1.2) rotate(5deg);
+  filter: brightness(1.1);
+  color: $colorGreen;
 }

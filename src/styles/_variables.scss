@@ -10,15 +10,8 @@ $colorPink: #c98f8f;
 
 // - FONTS - //
 @font-face {
-  font-family: "Jacquard";
-  src:
-    url("fonts/Jacquard12-Regular.ttf"),
-    format("ttf");
-}
-@font-face {
-    font-family: Brutal;
-    src: url(fonts/DarkerGrotesque-VariableFont_wght.ttf);
-    font-weight: 100 900;
+  font-family: "Diary";
+  src: url("fonts/DiaryOfAn8BitMage-lYDD.ttf") format("truetype");
 }
 // - FONT SIZES - //
 $smallFont: 18px;
