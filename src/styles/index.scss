@@ -36,18 +36,19 @@
 .Routes {
   position: absolute;
   display: grid;
-  margin-top: 40vh;
+  margin-top: 35vh;
   margin-left: 65vw;
   font-family: Diary;
   color: $colorBlack;
   font-size: $mediumFont;
+  justify-items: center;
   text-shadow: 2px 2px 0 $colorWhite;
   z-index: 2;
 }
 
 @media (min-width: 760px) {
   .Routes {
-    margin-left: 35vw;
+    margin-left: 30vw;
   }
 }
 
@@ -59,7 +60,7 @@
 }
 
 :root {
-  --radius: 35vh;
+  --radius: 30vh;
 }
 
 .HalfMoon .Routes:nth-child(6) {
