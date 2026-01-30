@@ -27,27 +27,27 @@ import "../styles/index.scss";
       <div class="HalfMoon">
         <slot />
         <a href="/portfolio/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Portfolio.png" />Portfolio</a
+          ><img class="IndexIcons" src="/icons/Portfolio.png" />Portfolio</a
         >
         <a href="/devlog/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Devlog.png" />Devlog</a
+          ><img class="IndexIcons" src="/icons/Devlog.png" />Devlog</a
         >
         <a href="/games/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Games.png" />Games</a
+          ><img class="IndexIcons" src="/icons/Games.png" />Games</a
         >
         <a href="/blog/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Blog.png" />Blog</a
+          ><img class="IndexIcons" src="/icons/Blog.png" />Blog</a
         >
         <a href="/music/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Music.png" />Music</a
+          ><img class="IndexIcons" src="/icons/Music.png" />Music</a
         >
         <a href="/social/" class="Routes"
-          ><img class="IndexIcons" src="/src/icons/Social.png" />Socials</a
+          ><img class="IndexIcons" src="/icons/Social.png" />Socials</a
         >
       </div>
       <model-viewer
         class="Luther"
-        src="src/3d/OtherHeaven.gltf"
+        src="3d/OtherHeaven.gltf"
         interaction-prompt="none"
         camera-controls
         autoplay
@@ -65,10 +65,10 @@ import "../styles/index.scss";
           data-surface="145 0 8 10 11 0.308 0.114 0.579"
           data-visibility-attribute="visible"
         >
-          <img src="/src/icons/Play.png" />
+          <img src="/icons/Play.png" />
         </button></model-viewer
       >
-      <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />
+      <img id="dynamicBG" class="Background" src="/images/Day.jpg" />
     </div>
     <script>
       const updateBG = () => {
@@ -77,11 +77,11 @@ import "../styles/index.scss";
         if (!BG) return;
 
         if (hour >= 6 && hour < 17) {
-          BG.src = "/src/images/Day.jpg";
+          BG.src = "/images/Day.jpg";
         } else if (hour >= 17 && hour < 20) {
-          BG.src = "/src/images/Sunset.jpg";
+          BG.src = "/images/Sunset.jpg";
         } else {
-          BG.src = "/src/images/Night.jpg";
+          BG.src = "/images/Night.jpg";
         }
       };
       updateBG();
@@ -89,36 +89,36 @@ import "../styles/index.scss";
     <script>
       const playlist = {
         Sunday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Monday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Tuesday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Wednesday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Thursday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Friday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         Saturday: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
         default: {
-          day: "/src/audio/Iwatodai-Dorm.ogg",
-          night: "/src/audio/Iwatodai-Dorm.ogg",
+          day: "/audio/Iwatodai-Dorm.ogg",
+          night: "/audio/Iwatodai-Dorm.ogg",
         },
       };
       const audio = new Audio();
