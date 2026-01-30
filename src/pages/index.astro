@@ -1,0 +1,153 @@
+---
+import { ClientRouter } from "astro:transitions";
+import "../styles/global.scss";
+import "../styles/index.scss";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/Other-Heaven.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Other Heaven</title>
+    <ClientRouter />
+    <script>
+      import { ModelViewerElement } from "@google/model-viewer";
+      if (
+        typeof customElements !== "undefined" &&
+        !customElements.get("model-viewer")
+      ) {
+        customElements.define("model-viewer", ModelViewerElement);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="LutherContainer">
+      <div class="HalfMoon">
+        <slot />
+        <a href="/portfolio/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Portfolio.png" />Portfolio</a
+        >
+        <a href="/devlog/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Devlog.png" />Devlog</a
+        >
+        <a href="/games/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Games.png" />Games</a
+        >
+        <a href="/blog/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Blog.png" />Blog</a
+        >
+        <a href="/music/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Music.png" />Music</a
+        >
+        <a href="/social/" class="Routes"
+          ><img class="IndexIcons" src="/src/icons/Social.png" />Socials</a
+        >
+      </div>
+      <model-viewer
+        class="Luther"
+        src="src/3d/OtherHeaven.gltf"
+        interaction-prompt="none"
+        camera-controls
+        autoplay
+        camera-target="-1m 0.9m 0.3m"
+        camera-projection="orthographic"
+        min-camera-orbit="-360deg 50deg 0.01%"
+        camera-orbit="-61.96deg 91.43deg 5.5%"
+        min-field-of-view="2deg"
+        field-of-view="25deg"
+      >
+        <button
+          class="Hotspot"
+          slot="hotspot-1"
+          id="musicCtrl"
+          data-surface="145 0 8 10 11 0.308 0.114 0.579"
+          data-visibility-attribute="visible"
+        >
+          <img src="/src/icons/Play.png" />
+        </button></model-viewer
+      >
+      <img id="dynamicBG" class="Background" src="/src/images/Day.jpg" />
+    </div>
+    <script>
+      const updateBG = () => {
+        const hour = new Date().getHours();
+        const BG = document.getElementById("dynamicBG") as HTMLImageElement;
+        if (!BG) return;
+
+        if (hour >= 6 && hour < 17) {
+          BG.src = "/src/images/Day.jpg";
+        } else if (hour >= 17 && hour < 20) {
+          BG.src = "/src/images/Sunset.jpg";
+        } else {
+          BG.src = "/src/images/Night.jpg";
+        }
+      };
+      updateBG();
+    </script>
+    <script>
+      const playlist = {
+        Sunday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Monday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Tuesday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Wednesday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Thursday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Friday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        Saturday: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+        default: {
+          day: "/src/audio/Iwatodai-Dorm.ogg",
+          night: "/src/audio/Iwatodai-Dorm.ogg",
+        },
+      };
+      const audio = new Audio();
+      audio.loop = true;
+      const musicCtrl = document.getElementById("musicCtrl");
+      let isPlaying = false;
+      const toggleMusic = () => {
+        if (!isPlaying) {
+          audio.src = getTrack();
+          audio.play();
+          musicCtrl?.classList.add("playing");
+        } else {
+          audio.pause();
+          musicCtrl?.classList.remove("playing");
+        }
+        isPlaying = !isPlaying;
+      };
+      const getTrack = () => {
+        const now = new Date();
+        const dayName = new Intl.DateTimeFormat("en-US", {
+          weekday: "long",
+        }).format(now);
+        const hour = now.getHours();
+        const isDay = hour >= 6 && hour < 17;
+        const dayData =
+          playlist[dayName as keyof typeof playlist] || playlist.default;
+        return isDay ? dayData.day : dayData.night;
+      };
+      musicCtrl?.addEventListener("click", toggleMusic);
+    </script>
+  </body>
+</html>
