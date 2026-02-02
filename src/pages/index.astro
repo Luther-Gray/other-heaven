@@ -70,6 +70,7 @@ import "../styles/index.scss";
       >
       <img id="dynamicBG" class="Background" src="/images/Day.jpg" />
     </div>
+    <div id="MusicPlayer" transition:persist>
     <script>
       const updateBG = () => {
         const hour = new Date().getHours();
@@ -85,8 +86,6 @@ import "../styles/index.scss";
         }
       };
       updateBG();
-    </script>
-    <script>
       const playlist = {
         Sunday: {
           day: "/audio/Iwatodai-Dorm.ogg",
@@ -149,5 +148,6 @@ import "../styles/index.scss";
       };
       musicCtrl?.addEventListener("click", toggleMusic);
     </script>
+    </div>
   </body>
 </html>
