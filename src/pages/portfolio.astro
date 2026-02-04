@@ -1,7 +1,11 @@
 ---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
 import "../styles/global.scss";
 import "../styles/portfolio.scss";
+
+const portfolioEntries = await getCollection("portfolio");
 ---
 
 <html lang="en">
@@ -13,19 +17,106 @@ import "../styles/portfolio.scss";
   </head>
   <body>
     <div class="PortfolioContainer">
-      <div><h1>Portfolio Page WIP</h1></div>
+      <div><h1>Portfolio Page WIP (Filters/Sorting do not work yet)</h1></div>
       <div class="FilterContainer">
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbFlame.png" />#2D</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbYellow.png" />#3D</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbBlue.png" />#Pixel</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbGreen.png" />#Concept</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbNight.png" />#Voxel</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbSilver.png" />#Code</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbRed.png" />#Mods</div>
-        <div class="FilterItem"><img class="FilterIcons" src="/icons/PortfolioIcons/OrbPink.png" />#Design</div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbFlame.png"
+          />#2D
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbYellow.png"
+          />#3D
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbBlue.png"
+          />#Pixel
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbGreen.png"
+          />#Concept
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbNight.png"
+          />#Voxel
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbSilver.png"
+          />#Code
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbRed.png"
+          />#Mods
+        </div>
+        <div class="FilterItem">
+          <img
+            class="FilterIcons"
+            src="/icons/PortfolioIcons/OrbPink.png"
+          />#Design
+        </div>
       </div>
-      <div>Portfolio Part</div>
+      <div class="PortfolioGrid">
+        {
+          portfolioEntries.map((entry: any) => (
+            <div class="PortfolioItem">
+              {entry.data.imageName} |
+              {entry.data.imageDate.toLocaleDateString("en-US", {
+                month: "2-digit",
+                year: "2-digit",
+              })}
+              <Image
+                src={entry.data.imageFile}
+                alt={entry.data.imageName}
+              />
+              {
+          entry.data.imageTag.map((tag: string) => (
+            <div># {tag}</div>
+          ))
+        }
+            </div>
+          ))
+        }
+      </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const items = document.querySelectorAll(".PortfolioItem");
+        let expandedItem: any = null;
+
+        items.forEach((item) => {
+          item.addEventListener("click", (e) => {
+            if (item.classList.contains("expanded")) return;
+            if (expandedItem) {
+              expandedItem.classList.remove("expanded");
+            }
+            item.classList.add("expanded");
+            expandedItem = item;
+            e.stopPropagation();
+          });
+        });
+
+        document.addEventListener("click", (e) => {
+          if (expandedItem && !expandedItem.contains(e.target)) {
+            expandedItem.classList.remove("expanded");
+            expandedItem = null;
+          }
+        });
+      });
+    </script>
   </body>
 </html><footer>
   <a href="/"><img class="HomeIcon" src="/icons/Home.png" /></a>
