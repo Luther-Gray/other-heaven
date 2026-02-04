@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
-import { ClientRouter } from "astro:transitions";
 import "../styles/global.scss";
 import "../styles/portfolio.scss";
 
@@ -13,7 +12,6 @@ const portfolioEntries = await getCollection("portfolio");
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/Other-Heaven.png" />
     <title>Portfolio</title>
-    <ClientRouter />
   </head>
   <body>
     <div class="PortfolioContainer">
