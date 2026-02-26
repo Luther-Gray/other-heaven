@@ -13,7 +13,14 @@ $colorPink: #c98f8f;
   font-family: "Diary";
   src: url("fonts/DiaryOfAn8BitMage-lYDD.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Minecraft";
+  src: url("fonts/Minecraft-Regular.ttf") format("truetype");
+}
 // - FONT SIZES - //
 $smallFont: 18px;
 $mediumFont: 24px;
 $largeFont: 36px;
+
+// - SHADOWS - //
+$textShadow : 2px 5px 5px rgba(26,26,26,0.55);

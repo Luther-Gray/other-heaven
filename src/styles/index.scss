@@ -63,6 +63,10 @@
   --radius: 30vh;
 }
 
+.HalfMoon .Routes:nth-child(7) {
+  transform: rotate(54deg) translate(var(--radius)) rotate(-54deg);
+}
+
 .HalfMoon .Routes:nth-child(6) {
   transform: rotate(90deg) translate(var(--radius)) rotate(-90deg);
 }

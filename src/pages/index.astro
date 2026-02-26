@@ -19,28 +19,67 @@ import "../styles/index.scss";
         customElements.define("model-viewer", ModelViewerElement);
       }
     </script>
+    <script src="../scripts/sounds.js"></script>
   </head>
   <body>
     <div class="LutherContainer">
       <div class="HalfMoon">
         <slot />
+        <a href="/anotherworld/" class="Routes"
+          ><img
+            class="IndexIcons"
+            src="/icons/AnotherWorld.png"
+            data-sfx-hover
+            data-sfx-click
+          />Another World</a
+        >
         <a href="/portfolio/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Portfolio.png" />Portfolio</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Portfolio.png"
+            data-sfx-hover
+            data-sfx-click
+          />Portfolio</a
         >
         <a href="/devlog/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Devlog.png" />Devlog</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Devlog.png"
+            data-sfx-hover
+            data-sfx-click
+          />Devlog</a
         >
         <a href="/games/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Games.png" />Games</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Games.png"
+            data-sfx-hover
+            data-sfx-click
+          />Games</a
         >
         <a href="/blog/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Blog.png" />Blog</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Blog.png"
+            data-sfx-hover
+            data-sfx-click
+          />Blog</a
         >
         <a href="/music/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Music.png" />Music</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Music.png"
+            data-sfx-hover
+            data-sfx-click
+          />Music</a
         >
         <a href="/social/" class="Routes"
-          ><img class="IndexIcons" src="/icons/Social.png" />Socials</a
+          ><img
+            class="IndexIcons"
+            src="/icons/Social.png"
+            data-sfx-hover
+            data-sfx-click
+          />Socials</a
         >
       </div>
       <model-viewer
@@ -62,90 +101,92 @@ import "../styles/index.scss";
           id="musicCtrl"
           data-surface="145 0 8 10 11 0.308 0.114 0.579"
           data-visibility-attribute="visible"
+          sfx-hover
+          sfx-click
         >
           <img src="/icons/Play.png" />
         </button></model-viewer
       >
       <img id="dynamicBG" class="Background" src="/images/Day.jpg" />
     </div>
-    <div id="MusicPlayer" transition:persist>
-    <script>
-      const updateBG = () => {
-        const hour = new Date().getHours();
-        const BG = document.getElementById("dynamicBG") as HTMLImageElement;
-        if (!BG) return;
+    <div id="MusicPlayer">
+      <script>
+        const updateBG = () => {
+          const hour = new Date().getHours();
+          const BG = document.getElementById("dynamicBG") as HTMLImageElement;
+          if (!BG) return;
 
-        if (hour >= 6 && hour < 17) {
-          BG.src = "/images/Day.jpg";
-        } else if (hour >= 17 && hour < 20) {
-          BG.src = "/images/Sunset.jpg";
-        } else {
-          BG.src = "/images/Night.jpg";
-        }
-      };
-      updateBG();
-      const playlist = {
-        Sunday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Monday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Tuesday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Wednesday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Thursday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Friday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        Saturday: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-        default: {
-          day: "/audio/Iwatodai-Dorm.ogg",
-          night: "/audio/Iwatodai-Dorm.ogg",
-        },
-      };
-      const audio = new Audio();
-      audio.loop = true;
-      const musicCtrl = document.getElementById("musicCtrl");
-      let isPlaying = false;
-      const toggleMusic = () => {
-        if (!isPlaying) {
-          audio.src = getTrack();
-          audio.play();
-          musicCtrl?.classList.add("playing");
-        } else {
-          audio.pause();
-          musicCtrl?.classList.remove("playing");
-        }
-        isPlaying = !isPlaying;
-      };
-      const getTrack = () => {
-        const now = new Date();
-        const dayName = new Intl.DateTimeFormat("en-US", {
-          weekday: "long",
-        }).format(now);
-        const hour = now.getHours();
-        const isDay = hour >= 6 && hour < 17;
-        const dayData =
-          playlist[dayName as keyof typeof playlist] || playlist.default;
-        return isDay ? dayData.day : dayData.night;
-      };
-      musicCtrl?.addEventListener("click", toggleMusic);
-    </script>
+          if (hour >= 6 && hour < 17) {
+            BG.src = "/images/Day.jpg";
+          } else if (hour >= 17 && hour < 20) {
+            BG.src = "/images/Sunset.jpg";
+          } else {
+            BG.src = "/images/Night.jpg";
+          }
+        };
+        updateBG();
+        const playlist = {
+          Sunday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Monday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Tuesday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Wednesday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Thursday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Friday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          Saturday: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+          default: {
+            day: "/audio/Iwatodai-Dorm.ogg",
+            night: "/audio/Iwatodai-Dorm.ogg",
+          },
+        };
+        const audio = new Audio();
+        audio.loop = true;
+        const musicCtrl = document.getElementById("musicCtrl");
+        let isPlaying = false;
+        const toggleMusic = () => {
+          if (!isPlaying) {
+            audio.src = getTrack();
+            audio.play();
+            musicCtrl?.classList.add("playing");
+          } else {
+            audio.pause();
+            musicCtrl?.classList.remove("playing");
+          }
+          isPlaying = !isPlaying;
+        };
+        const getTrack = () => {
+          const now = new Date();
+          const dayName = new Intl.DateTimeFormat("en-US", {
+            weekday: "long",
+          }).format(now);
+          const hour = now.getHours();
+          const isDay = hour >= 6 && hour < 17;
+          const dayData =
+            playlist[dayName as keyof typeof playlist] || playlist.default;
+          return isDay ? dayData.day : dayData.night;
+        };
+        musicCtrl?.addEventListener("click", toggleMusic);
+      </script>
     </div>
   </body>
 </html>

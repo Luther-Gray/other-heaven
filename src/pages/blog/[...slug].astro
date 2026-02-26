@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from "astro:content";
+import { Image } from "astro:assets";
+import "../../styles/global.scss";
+import "../../styles/blog.scss";
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("blog");
+
+  return blogEntries.map((entry) => ({
+    // This logic handles the 'index' folder structure
+    params: {
+      slug: entry.id.replace(/\/index$/, ""),
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{entry.data.blogTitle}</title>
+    <script src="../../scripts/sounds.js"></script>
+  </head>
+  <body class="BlogSlug">
+    <article>
+      <h1>{entry.data.blogTitle}</h1>
+      <Content />
+    </article>
+    <footer>
+      <a href="/blog"
+        ><img
+          class="HomeIcon"
+          src="/icons/Back.png"
+          alt="Back"
+          data-sfx-hover
+          data-sfx-click="back"
+        /></a
+      >
+    </footer>
+  </body>
+</html>

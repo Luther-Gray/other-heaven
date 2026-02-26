@@ -1,12 +1,28 @@
 ---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import "../styles/global.scss";
+import "../styles/devlog.scss";
+
+const devlogEntries = await getCollection("devlog");
 ---
+
 <html lang="en">
   <head>
     <title>Devlog</title>
+    <script src="../scripts/sounds.js"></script>
   </head>
   <body>
-    <h1>Devlog Page WIP</h1>
-    <a href="/"><img class="HomeIcon" src="icons/Home.png" /></a>
+    <div class="PortfolioContainer">
+      <div><h1>Devlog Cabinet WIP (Filters/Sorting do not work yet)</h1></div>
+    </div>
+    <a href="/"
+      ><img
+        class="HomeIcon"
+        src="/icons/Home.png"
+        data-sfx-hover
+        data-sfx-click="home"
+      /></a
+    >
   </body>
 </html>

@@ -25,14 +25,14 @@ const blogTags = z.enum([
 
 const devlogTags = z.enum([
     "Thelma",
-    "Thelma TFE",
+    "Thelma-TFE",
     "Fantasia",
     "Pokemon NEXT",
     "Sonic ALTER",
     "Open Dungeon",
     "Looper",
     "Voxterra",
-    "Crisis of Faith"
+    "The Gaia Crisis"
 ])
 
 const portfolioCollection = defineCollection({
@@ -48,10 +48,11 @@ const portfolioCollection = defineCollection({
 
 const blogCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./content/blog" }),
-  schema: z.object({
+  schema: ({image}) => z.object({
     blogTitle: z.string(),
     blogDate: z.coerce.date(),
     blogTag: z.array(blogTags).default([]),
+    blogIcon: image(),
   })
 });
 
@@ -66,6 +67,6 @@ const devlogCollection = defineCollection({
 
 export const collections = {
   portfolio: portfolioCollection,
-  // blog: blogCollection,
-  // devlog: devlogCollection
+  blog: blogCollection,
+  devlog: devlogCollection
 };

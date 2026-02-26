@@ -12,10 +12,11 @@ const portfolioEntries = await getCollection("portfolio");
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/Other-Heaven.png" />
     <title>Portfolio</title>
+    <script src="../scripts/sounds.js"></script>
   </head>
   <body>
     <div class="PortfolioContainer">
-      <div><h1>Portfolio Page WIP (Filters/Sorting do not work yet)</h1></div>
+      <div class="PortfolioTitle">Portfolio Page WIP (Filters/Sorting do not work yet)</div>
       <div class="FilterContainer">
         <div class="FilterItem">
           <img
@@ -78,12 +79,12 @@ const portfolioEntries = await getCollection("portfolio");
               <Image
                 src={entry.data.imageFile}
                 alt={entry.data.imageName}
+                data-sfx-hover
+                data-sfx-click
               />
-              {
-          entry.data.imageTag.map((tag: string) => (
-            <div># {tag}</div>
-          ))
-        }
+              {entry.data.imageTag.map((tag: string) => (
+                <div># {tag}</div>
+              ))}
             </div>
           ))
         }
@@ -116,6 +117,14 @@ const portfolioEntries = await getCollection("portfolio");
       });
     </script>
   </body>
-</html><footer>
-  <a href="/"><img class="HomeIcon" src="/icons/Home.png" /></a>
-</footer>
+  <footer>
+    <a href="/"
+      ><img
+        class="HomeIcon"
+        src="/icons/Home.png"
+        data-sfx-hover
+        data-sfx-click="home"
+      /></a
+    >
+  </footer>
+</html>

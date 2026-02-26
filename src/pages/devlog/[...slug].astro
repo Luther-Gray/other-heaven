@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const devlogEntries = await getCollection("devlog");
+
+  return devlogEntries.map((entry) => ({
+    // This logic handles the 'index' folder structure
+    params: {
+      slug: entry.id.replace(/\/index$/, ""),
+    },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<html lang="en">
+  <head>
+    <title>{entry.data.devlogTitle}</title>
+    <script src="../../scripts/sounds.js"></script>
+  </head>
+  <body>
+    <article>
+      <h1>{entry.data.devlogTitle}</h1>
+      <Content />
+    </article>
+    <footer>
+      <a href="/blog"
+        ><img
+          class="HomeIcon"
+          src="/icons/Back.png"
+          alt="Back"
+          data-sfx-hover
+          data-sfx-click="back"
+        /></a
+      >
+    </footer>
+  </body>
+</html>
