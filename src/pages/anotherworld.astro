@@ -1,21 +1,19 @@
 ---
 import "../styles/global.scss";
+import "../styles/anotherworld.scss";
+import Home from "../components/Home.astro";
+import {Content as Manifesto} from "../../content/anotherworld/anotherWorldManifesto.md"
 ---
 
 <html lang="en">
   <head>
-    <title>Another World Syndicate</title>
-    <script src="../scripts/sounds.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Another World Foundation</title>
   </head>
   <body>
-    <h1>Another World Syndicate WIP</h1>
-    <a href="/"
-      ><img
-        class="HomeIcon"
-        src="/icons/Home.png"
-        data-sfx-hover
-        data-sfx-click="home"
-      /></a
-    >
+    <h1>The Another World Foundation WIP</h1>
+    <Manifesto/>
   </body>
+  <Home/>
 </html>

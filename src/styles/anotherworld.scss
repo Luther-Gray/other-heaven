@@ -1,0 +1,18 @@
+//Import
+@use "variables" as *;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+p, h2, h3 {
+    font-size: $mediumFont;
+    font-family: "Minecraft";
+}
+
+h1 {
+    font-family: "Diary";
+}
