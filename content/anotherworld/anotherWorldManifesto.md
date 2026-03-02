@@ -1,1 +1,0 @@
-## Dare to be Strange.
