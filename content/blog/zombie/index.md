@@ -9,7 +9,7 @@ blogTag: ["Game Design"]
 
 The genre of zombie survival games feels like it has reached a type of perfect formula. A formula that has been honed and sharpened over the course of many games.
 
-CDDA, Zombie, 7 Days to Die, State of Decay, and even a Minecraft Modpack have contributed great things to this particular sub-genre. But when it comes down to it, all of these games share the same feeling of being incomplete. Whether that be the cause of poorly fleshed out mechanics, dated technology, or cycles of development hell, not a single one of these games can claim the crown.
+CDDA, Zomboid, 7 Days to Die, State of Decay, and even a Minecraft Modpack have contributed great things to this particular sub-genre. But when it comes down to it, all of these games share the same feeling of being incomplete. Whether that be the cause of poorly fleshed out mechanics, dated technology, or cycles of development hell, not a single one of these games can claim the crown.
 
 In fact, it feels like the crown hasn't even been crafted for anyone yet. This formula that I brought up haphazardly, it morphs. It changes forms and color when you don't look at it. Every time you turn your head back to stare at it again, it looks slightly different. I consider it a bit of a mirage. There can't be a king of this sub-genre because the idea of categorizing all these games together is itself flawed. The taxonomy is non-sensical.
 
@@ -39,7 +39,7 @@ But, is that necessary for my game? Unlike Zomboid, my game DOES have a way to e
 
 For another example, Dying Light splits up their Zombie features between day and night. During the day, you get the typical walker. Dumb as a bag of rocks and twice as heavy. But at night, they turn into well honed predators that can chase you across rooftops. The relief for this gameplay are safe-zones. Areas with blacklight that stop the nocturnal creatures from following you in.
 
-But, do I have those kinds of safe-zones? Well...no. And I have no intention of adding them. Safety is relative for my game, not an absolute. So does it make sense to have creatures that chase you so doggedly? Things that have more stamina than you have, and can navigate the environment just as well as you do? No. No I don't think it does.
+But, do I have those kinds of safe-zones? Well... no. And I have no intention of adding them. Safety is relative for my game, not an absolute. So does it make sense to have creatures that chase you so doggedly? Things that have more stamina than you have, and can navigate the environment just as well as you do? No. No I don't think it does.
 
 For whatever game you're crafting, I expect you to run through a similar vein of thought. What do your peers do and should you follow in their footsteps? Or perhaps you should tread your own path?
 
@@ -49,10 +49,10 @@ I think most would agree that Project Zomboid is the gold standard for Zombie Su
 
 While most players echo a want or *need* for a Kenshi style world simulation for NPCs, this creator, [JanDoedel](https://youtu.be/b3YphKv8DEU) bravely asks the question and gets half-baked defenses for development time being spent on that feature.
 
-"Disable it in the Options."
+"Disable it in the options."
 "It would be immersive."
 "They already promised it."
-"Each playthrough would be different"
+"Each playthrough would be different."
 
 The sentiment is half-tied to a mistake the developers made in promising a feature before knowing the full scope or identity of their game. Zombie Simulation just is too vague to not end up cramming the entire kitchen sink into it. This is one of the many reasons why, even after 12 years, Zomboid still isn't even on version 0.5 yet.
 
