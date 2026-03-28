@@ -13,27 +13,28 @@ const portfolioTags = z.enum([
 ]);
 
 const blogTags = z.enum([
-    "Rant",
-    "Video Games",
-    "Design",
-    "Game Design",
-    "Technology",
-    "Culture",
-    "Tutorial",
-    "Other"
-])
+  "Rant",
+  "Video Games",
+  "Design",
+  "Game Design",
+  "Technology",
+  "Culture",
+  "Tutorial",
+  "Art",
+  "Other",
+]);
 
 const devlogTags = z.enum([
-    "Thelma",
-    "Thelma-TFE",
-    "Fantasia",
-    "Pokemon NEXT",
-    "Sonic ALTER",
-    "Open Dungeon",
-    "Looper",
-    "Voxterra",
-    "The Gaia Crisis"
-])
+  "Thelma",
+  "Thelma-TFE",
+  "Fantasia",
+  "Pokemon NEXT",
+  "Sonic ALTER",
+  "Open Dungeon",
+  "Looper",
+  "Voxterra",
+  "The Gaia Crisis",
+]);
 
 const portfolioCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./content/portfolio" }),
@@ -48,12 +49,13 @@ const portfolioCollection = defineCollection({
 
 const blogCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "./content/blog" }),
-  schema: ({image}) => z.object({
-    blogTitle: z.string(),
-    blogDate: z.coerce.date(),
-    blogTag: z.array(blogTags).default([]),
-    blogIcon: image(),
-  })
+  schema: ({ image }) =>
+    z.object({
+      blogTitle: z.string(),
+      blogDate: z.coerce.date(),
+      blogTag: z.array(blogTags).default([]),
+      blogIcon: image(),
+    }),
 });
 
 const devlogCollection = defineCollection({
@@ -62,11 +64,11 @@ const devlogCollection = defineCollection({
     devlogTitle: z.string(),
     devlogDate: z.coerce.date(),
     devlogTag: z.array(devlogTags).default([]),
-  })
+  }),
 });
 
 export const collections = {
   portfolio: portfolioCollection,
   blog: blogCollection,
-  devlog: devlogCollection
+  devlog: devlogCollection,
 };
