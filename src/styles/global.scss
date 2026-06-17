@@ -1,11 +1,12 @@
 // Import Variables
-@use 'variables' as *;
+@use "variables" as *;
 
 // - GLOBALS - //
 html {
+    margin: 0;
     height: 100%;
 }
-body{
+body {
     height: 100%;
     margin: 0;
     min-height: 100vh;
@@ -18,17 +19,17 @@ a {
 
 // Back/Home Icons
 .HomeIcon {
-  position: absolute;
-  width: 10vh;
-  height: auto;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  left: 0%;
-padding-left: 1%;
-padding-bottom: 1%;
+    position: absolute;
+    width: 10vh;
+    height: auto;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    left: 0%;
+    padding-left: 1%;
+    padding-bottom: 1%;
 }
 
 .HomeIcon:hover {
-  transform: scale(1.2) rotate(5deg);
-  filter: brightness(1.1);
-  color: $colorGreen;
+    transform: scale(1.2) rotate(5deg);
+    filter: brightness(1.1);
+    color: $colorGreen;
 }
