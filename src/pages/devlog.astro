@@ -9,16 +9,32 @@ const devlogEntries = await getCollection("devlog");
 ---
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Devlog</title>
-    <script src="../scripts/sounds.js"></script>
-  </head>
-  <body>
-    <div class="PortfolioContainer">
-      <div><h1>Devlog Cabinet WIP (Filters/Sorting do not work yet)</h1></div>
-    </div>
-  </body>
-  <Home/>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Projects</title>
+        <script src="../scripts/sounds.js"></script>
+    </head>
+    <body>
+        <div class="DevlogContainer">
+            <div>
+                <h1>Projects WIP</h1>
+            </div>
+            <div class="DevlogGrid">
+                {
+                    devlogEntries.map((entry: any) => (
+                        <div class="DevlogItem">
+                            {entry.data.devlogTitle}
+                            <Image
+                                src={entry.data.devlogLogo}
+                                alt={entry.data.devlogTitle}
+                            />
+                            {entry.data.devlogTag}
+                        </div>
+                    ))
+                }
+            </div>
+        </div>
+    </body>
+    <Home />
 </html>
