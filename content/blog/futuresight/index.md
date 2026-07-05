@@ -57,9 +57,9 @@ The business model was a racket, plain and simple. Faraday cage for 20 credits. 
 
 "If no one cares for those in our protectorate, then what will become of them? Don't we have a duty to fulfill? It wouldn't even be that expensive. They only have so many nano drones left to fly at each other before they're dry."
 
-I stepped out of the bathroom, dry and sanitized, into my bedroom. In some way the room was more primitive than the bathroom. My unit didn't come with a kitchen, so I was surviving off ration bars and take out. My next big purchase was to be a stomach augment, and my tablet was crowded with all types of articles and testimonies decrying the danger of putting what was essentially a furnace into your abdomen.
+I stepped out, dry and sanitized, into my bedroom. In some way the room was more primitive than the bathroom. My unit didn't come with a kitchen, so I was surviving off ration bars and take out. My next big purchase was to be a stomach augment, and my tablet was crowded with all types of articles and testimonies decrying the danger of putting what was essentially a furnace into your abdomen.
 
-I struggled to see the problem though. Maybe you'd get a rude comment from a meatbag or two, but no laws were being broken. Did it truly matter?
+I struggled to see the problem however. Maybe you'd get a rude comment from a meatbag or two, but no laws were being broken. Did it truly matter? Of course not.
 
 "Format."
 
