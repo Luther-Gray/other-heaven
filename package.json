@@ -9,10 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@google/model-viewer": "^4.1.0",
-    "astro": "^5.18.2"
+    "@google/model-viewer": "^4.3.1",
+    "astro": "^7.0.6"
   },
   "devDependencies": {
-    "sass-embedded": "^1.93.2"
+    "sass-embedded": "^1.100.0"
   }
 }
