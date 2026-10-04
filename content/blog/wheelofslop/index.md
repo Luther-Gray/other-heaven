@@ -134,7 +134,7 @@ No one is getting "left behind". Not a single AI bro has the insight or awarenes
 
 But shouldn't you at some point stand up? Stand up and get snapped in half I mean? Am I too cynical or am I just being realistic?
 
-Ai isn't the special thing people claim it is, but as a tool, it's not something we can ignore. Regulation cannot fix what is inherently just a bunch of numbers in a file. Just as regulations cannot fix a few tool paths for a printed gun. It's a foolish to put it kindly.
+Ai isn't the special thing people claim it is, but as a tool, it's not something we can ignore. Regulation cannot fix what is inherently just a bunch of numbers in a file. Just as regulations cannot fix a few tool paths for a printed gun. It's foolish to put it kindly.
 
 Fuck, I don't know man. I don't have a conclusion. I don't know if I should be fighting or bending. If I bend, what exactly am I bending toward? What exactly am I hoping to change? 
 
@@ -150,7 +150,7 @@ A black boy who was the first in his family to own a PC or touch technology, sat
 
 That openness changed my life trajectory and it's not something I will ever forget.
 
-The least I can do to pass the torch, despite the rest of the world already being on fire, right? And so I will.
+The least I can do is pass the torch, despite the rest of the world already being on fire, right? And so I will.
 
 As for AI, I still don't know. I still don't use it for the shit I care about. I likely never will. But I think I have to grow okay with it existing along-side me. It's stupid that somehow this tool has been taken by the worst people rather than the best of us. If it was trained ethically, if it paid reparations to the people it stole from, if it created more enjoyable jobs than it displaced profitable ones, I would even go so far as to forgive it.
 
