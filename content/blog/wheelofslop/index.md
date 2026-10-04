@@ -15,11 +15,11 @@ When I was 2 years younger, more naive, and my hairline was more stiff I made a 
 
 ## The Wheel Turned
 
-This video was made before Elon Musk destroyed our government and Trump blustered his way into the White House and attempted to destroy the pillars our or Democracy (if you thought I'm not a political person, just because I don't bring it up that often, you do not know me~). It is no longer safe to work a federal job and to cruise towards retirement. It's no longer safe to work at a 'boring' company and do what you are tasked with every day on Jira.
+This video was made before Elon Musk destroyed our government and Trump blustered his way into the White House and attempted to destroy the pillars of our Democracy (if you thought I'm not a political person, just because I don't bring it up that often, you do not know me~). It is no longer safe to work a federal job and to cruise towards retirement. It's no longer safe to work at a 'boring' company and do what you are tasked with every day on Jira.
 
 This is because of a combination of factors ranging from the economy/interest rates, a global job market rather than a local one, cost of labor, over-hiring, and the illusion of productivity that AI provides, but I'm only focusing on this last part for this blog post. It's not that I don't have time to get into it all, I do, I just don't wanna.💀
 
-AI is Useful, but it is not *that* useful. As I explained in [explaining the ai bubble, the pop, and your future as an artist during the after party](https://youtu.be/tFw8NwgIDeA?si=cjbY376PFDTahDEo), an LLM is just a pattern recognition machine, like many that have existed before it, but it uses a larger source of data, a mechanism to absorb more beyond it's set, and semantics to not just blow past the turing test, but render any work that requires doing the same thing more than once, more or less mute.
+AI is Useful, but it is not *that* useful. As I explained in [explaining the ai bubble, the pop, and your future as an artist during the after party](https://youtu.be/tFw8NwgIDeA?si=cjbY376PFDTahDEo), an LLM is just a pattern recognition machine, like many that have existed before it, but it uses a larger source of data, a mechanism to absorb more beyond it set, and semantics to not just blow past the turing test, but render any work that requires doing the same thing more than once, more or less mute.
 
 That's not how it is now, but it will eventually go there. Yann LeCun's work on World Models, Niantic (the Pokemon Go people)'s efforts in the field of Spatial Computing & Gaussian Splats, and the field of Robotics more generally are going faster and faster as time goes on. The tech is becoming more absurd and we are in more ways than one, already in that Cyberpunk dystopia the teen version of you always dreamed of. 
 
@@ -29,7 +29,7 @@ But just because AI cannot do novel work, does not mean it is useless, which the
 
 It's more permissive than the walled garden which is game development by a long shot, and we will get to that later.
 
-That very same ethos of being open, only asking for credit, allowing people to benefit and grow from knowledge is now being turn against this community and hollowing it out from the inside. LLMs, the pattern matching machines, have long since stolen and absorbed the code from these brilliant programmers without permission, compensation or respect for licensing rights. Just as these models have baked in artwork without permission, any public repo, even the niche ones with no stars, have been cut up and fed into these various models, only to be fine-tuned and optimized later on.
+That very same ethos of being open, only asking for credit, allowing people to benefit and grow from knowledge is now being turned against this community and hollowing it out from the inside. LLMs, the pattern matching machines, have long since stolen and absorbed the code from these brilliant programmers without permission, compensation or respect for licensing rights. Just as these models have baked in artwork without permission, any public repo, even the niche ones with no stars, have been cut up and fed into these various models, only to be fine-tuned and optimized later on.
 
 In the hands of people who don't even understand what a forloop is, LLMs spit out other people's work at breakneck speeds. The junior that previously cut his teeth by adding a Google Maps API into a webpage is out of space and out of time. Like I mentioned in both AI videos, it doesn't at all matter that AI isn't making "good" or "maintainable" code. It doesn't matter that it's almost impossible to parse without a secondary AI to help you. It doesn't matter that the software spit out the other end is buggy.
 
@@ -39,12 +39,11 @@ Healthcare? AI. Law? AI. Design firm? AI. Put it in and don't ask questions. You
 
 Every programmer has felt this shift. Writing code was always the least important part of the job, some would argue, but now that argument has grown legs and runs track. In under a minute, the generic CRUD application that businesses used to invest in programmers to create is doable. The problem is now maintaining that application, and we will see how well that goes, but I don't have high hopes for the result.
 
-
 If everything is built on the same code, from the same sources, from the same time and versions of software, on the same tech stacks, then these things will also share the same vulnerabilities. The same hacks, viruses and trojans can be used, spread and abused.
 
 The number of hacks across the whole tech world has gone up and this will only get worse. AI is finding exploits and ways to crunch against defenses that humans *could* also do, but it required many man hours. A screwdriver is slower than a drill. In addition, you're unlikely to make a hole with a screwdriver without 3 days of work. 
 
-Doesn't matter if the hack is beneficial or malicious. The truth on it all is relative to where you're standing anyways, things are less secure.
+Doesn't matter if the hack is beneficial or malicious. The truth of it all is relative to where you're standing anyways, things are less secure.
 
 This is not a ProtonVPN sponsership jumpscare.
 
@@ -56,7 +55,7 @@ Things were looking grim and while it was possible for Data Hoarders to preserve
 
 I don't think I've seen many examples of a Monkey's Paw curling in my life. A Faustian bargain. But I struggle to explain what the hell we've been seeing lately with these [AI Mashup Games](https://www.reddit.com/r/aigamedev/comments/1wwc4na/ai_is_now_letting_people_flawlessly_mash_up_any/) without considering that maybe, we all got exactly what we asked for. There's nothing more liberating and anti-corpo than IP theft.
 
-- Btw, did you know that all my work is under CC-NC-SA? Steal my shit! I don't care if it's my art or my worlds. Steal your ass off. Anyways
+- Btw, did you know that all my work is under CC-NC-SA? Steal my shit! I don't care if it's my art or my worlds. Steal your ass off. Anyways...
 
 Games, even when built on proprietary tech and specific engines, still fall into the same trappings as all software. One of the bootlicker arguments around Stop Killing Games was that devs couldn't unhook games from the various license agreements they had made with other companies. B2B nonsense. Skyrim can't be opened up because it runs on Havok.
 
