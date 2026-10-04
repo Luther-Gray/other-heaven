@@ -11,7 +11,7 @@ While everyone I know and care about have been fighting for their life during th
 
 These "people" I'm referring to are naturally programmers. Doesn't matter the skill level, language, coding pattern, or how many apps they have with over 300 deps and 0 users; LLMs have managed to overtake and consume every supposedly enjoyable aspect of this field that used to be programming.
 
-When I was was 2 years younger, more naive, and my hairline was more stiff I made a video called ["layoffs, ai and pivoting out of a dying career path"](https://www.youtube.com/watch?v=xTSKTzo5wps) where I ranted like a moron for almost an hour about how AI impacted tech, the job market, and if there was a way out of this. I'm proud to announce to you now that I was half-right, like I always am, but things are so much more complicated now. And in many ways it's worse than I thought it'd get.
+When I was 2 years younger, more naive, and my hairline was more stiff I made a video called ["layoffs, ai and pivoting out of a dying career path"](https://www.youtube.com/watch?v=xTSKTzo5wps) where I ranted like a moron for almost an hour about how AI impacted tech, the job market, and if there was a way out of this. I'm proud to announce to you now that I was half-right, like I always am, but things are so much more complicated now. And in many ways it's worse than I thought it'd get.
 
 ## The Wheel Turned
 
@@ -29,7 +29,7 @@ But just because AI cannot do novel work, does not mean it is useless, which the
 
 It's more permissive than the walled garden which is game development by a long shot, and we will get to that later.
 
-That very same ethos of being open, only asking for credit, allowing people to benefit and grow from knowledge is now being turn against this community and hollowing it out from the inside. LLMs, the pattern matching machines, have long since stolen and aborbed the code from these brilliant programmers without permission, compensation or respect for licensing rights. Just as these models have baked in artwork without permission, any public repo, even the niche ones with no stars, have been cut up and fed into these various models, only to be fine-tuned and optimized later on.
+That very same ethos of being open, only asking for credit, allowing people to benefit and grow from knowledge is now being turn against this community and hollowing it out from the inside. LLMs, the pattern matching machines, have long since stolen and absorbed the code from these brilliant programmers without permission, compensation or respect for licensing rights. Just as these models have baked in artwork without permission, any public repo, even the niche ones with no stars, have been cut up and fed into these various models, only to be fine-tuned and optimized later on.
 
 In the hands of people who don't even understand what a forloop is, LLMs spit out other people's work and breakneck speeds. The junior that previously cut his teeth by adding a Google Maps API into a webpage is out of space and out of time. Like I mentioned in both AI videos, it doesn't at all matter that AI isn't making "good" or "maintainable" code. It doesn't matter that it's almost impossible to parse without a secondary AI to help you. It doesn't matter that the software spit out the other end is buggy.
 
@@ -37,10 +37,10 @@ Your boss thinks it's good enough. Your users think it's good enough. And you, a
 
 Healthcare? AI. Law? AI. Design firm? AI. Put it in and don't ask questions. Your users, if they even exist, will use whatever the hell you give them because your boss worked out a B2B exclusivity deal for the next 5 years. These poor fucks couldn't switch even if they wanted. The people who made the deal don't even use the tech, and they don't care about what the engineers say because it's cheaper than whatever Microslop attempted to make them use last time.
 
-Every programmer has felt this shift. Writing code was always the least important part of the job, some would argue, but now that argument has grown legs and runs track. In under a minute, the generic CRUD appliation that businesses used to invest in programmers to create is doable. The problem is now maintaining that application, and we will see how well that goes, but I don't have high hopes for the result.
+Every programmer has felt this shift. Writing code was always the least important part of the job, some would argue, but now that argument has grown legs and runs track. In under a minute, the generic CRUD application that businesses used to invest in programmers to create is doable. The problem is now maintaining that application, and we will see how well that goes, but I don't have high hopes for the result.
 
 
-If everything is built on the same code, from the same sources, from the same time and versions of software, on the same tech stacks, then these things will also share the same vunreabilities. The same hacks, viruses and trojans can be used, spread and abused.
+If everything is built on the same code, from the same sources, from the same time and versions of software, on the same tech stacks, then these things will also share the same vulnerabilities. The same hacks, viruses and trojans can be used, spread and abused.
 
 The number of hacks across the whole tech world has gone up and this will only get worse. AI is finding exploits and ways to crunch against defenses that humans *could* also do, but it required many man hours. A screwdriver is slower than a drill. In addition, you're unlikely to make a hole with a screwdriver without 3 days of work. 
 
@@ -54,15 +54,15 @@ In recent years, the emulation community has faced their Majora's Mask moment wi
 
 Things were looking grim and while it was possible for Data Hoarders to preserve what we already had and scuttle away into the halls of the Dark Net, along backalley Matrix channels and secret IP routes, all progress on game preservation was almost primed to die.
 
-I don't think I've seen many examples of a Monkey's Paw curling in my life. A Faustian-bargin. But I struggle to explain what the hell we've been seeing lately with these [AI Mashup Games](https://www.reddit.com/r/aigamedev/comments/1wwc4na/ai_is_now_letting_people_flawlessly_mash_up_any/) without considering that maybe, we all got exactly what we asked for. There's nothing more liberating and anti-corpo than IP theft.
+I don't think I've seen many examples of a Monkey's Paw curling in my life. A Faustian bargain. But I struggle to explain what the hell we've been seeing lately with these [AI Mashup Games](https://www.reddit.com/r/aigamedev/comments/1wwc4na/ai_is_now_letting_people_flawlessly_mash_up_any/) without considering that maybe, we all got exactly what we asked for. There's nothing more liberating and anti-corpo than IP theft.
 
 - Btw, did you know that all my work is under CC-NC-SA? Steal my shit! I don't care if it's my art or my worlds. Steal your ass off. Anyways
 
-Games, even when built on proprietary tech and specific engines, still fall into the same trappings as all software. One of the bootlicker arguments around Stop Killing Games was that devs couldn't unhook games from the various licesnse agreements they had made with other companies. B2B nonsense. Skyrim can't be opened up because it runs on Havok.
+Games, even when built on proprietary tech and specific engines, still fall into the same trappings as all software. One of the bootlicker arguments around Stop Killing Games was that devs couldn't unhook games from the various license agreements they had made with other companies. B2B nonsense. Skyrim can't be opened up because it runs on Havok.
 
 Very intelligent and passionate people within this community of emulation and homebrew have dedicated years, decades, their lives even, to cracking this previously hidden software open for the community to access and modify for a long time now. While some things are easier than others, with the Dreamcast being one of the funniest examples I've heard of, it is not a simple concept to reverse-engineer anything in this medium.
 
-Just because it isn't simple, does NOT mean it has not been done. With screw drivers, developers have unwound the spindles and tangled globs of code. They've defeated obfuscation an rebuilt broken dependancies. Games have had open-source recreations, ports, and decomps forever.
+Just because it isn't simple, does NOT mean it has not been done. With screw drivers, developers have unwound the spindles and tangled globs of code. They've defeated obfuscation an rebuilt broken dependencies. Games have had open-source recreations, ports, and decomps forever.
 
 And then the drill of AI came in.
 
@@ -70,7 +70,7 @@ Same exploits. Remember that? Same viruses. Same trojans. Same tech.
 
 I witnessed an explosion that is difficult to describe. It was like a big bang. First was a project claiming to be a native, cross-platform, port of [Majora's Mask](https://www.youtube.com/watch?v=ywWwUuWRgsM). Wide-screen, ray-tracing, 4k, gyro, 60fps, mods, oh my fucking god.
 
-Why would I use an emulator?! Fantatic work!
+Why would I use an emulator?! Fantastic work!
 
 Then 1 year later, Sonic Unleashed, Jak & Daxter Trilogy, Skate 3...? What the hell is going on?
 
@@ -87,13 +87,13 @@ Open the Quiver Launcher, a new library manager for downloading and organizing t
 
  ## It's AI Though
 
- AI is useful, it's not THAT useful. It can get you 90% of the way, and the last 10% is basically impossible to scale. The issue is, for emulation, this has always been the case. We have almost never had perfect 1 to 1 emulation. Games rate from Near Perfect, to Finishable, to Playable, and then Borked. The gate for success was already low. So what happens when you just move the goal posts and open up options that were simply too labor intensive for developers in this community to focus on?
+ AI is useful, it's not THAT useful. It can get you 90% of the way, and the last 10% is basically impossible to scale. The issue is, for emulation, this has always been the case. We have almost never had perfect 1 to 1 emulation. Games rate from Near Perfect, to Finish-able, to Playable, and then Borked. The gate for success was already low. So what happens when you just move the goal posts and open up options that were simply too labor intensive for developers in this community to focus on?
 
 You get this. Whatever the hell *this* is.
 
 Is this evil? I don't know. It's built on stolen code. All of this is stolen, of course, but this method, that very well could kill emulation at the pace we're going, is this okay? Should this even be something I indulge in? I downloaded the Skate 3 recomp. There are some broken textures and the menus are jittery, but an update fixed that recently. The games update. They expand and breathe. The limitation is just what you are willing to think of as long as you have the money to either run a local model or prompt a bigger model.
 
-Some asshole just recreated Minecraft's systems, building, inventory, combat, breaking and placing blocks, in Elden Ring. Another asshole put Skate 3 into Modern Warfare 2. It's the efforts of these previous decomps that opened the door for new decomps. Every game that was lazy enough to use the same protections are all vunreable to the same attack. B2B is their cage and for what seems like many games, there is a skeleton key. And if there isn't one, semantic matching will eventually create one.
+Some asshole just recreated Minecraft's systems, building, inventory, combat, breaking and placing blocks, in Elden Ring. Another asshole put Skate 3 into Modern Warfare 2. It's the efforts of these previous decomps that opened the door for new decomps. Every game that was lazy enough to use the same protections are all vulnerable to the same attack. B2B is their cage and for what seems like many games, there is a skeleton key. And if there isn't one, semantic matching will eventually create one.
 
 There's no machine god, there's no ghost in the shell, there's no Hal. AGI is a fake marketing ploy to get more investors for their IPO. They scare you and fear-monger so much that it backfires.
 
@@ -107,11 +107,11 @@ We can't go back. The wheel turns one way. You cannot eliminate or regulate AI i
 
 Is this okay?
 
-People are vibe-coding mods, and while there are obvious problems, it's also true that gamers and communities are embracing them regardless. Project Zomboid has 2 first person projects in the works, one of them is being used in a mod list that added jumping and mantling. Dying Light meets Projet Zomboid, which is what one of my in-progress projects essentially is, is being built in front of my eyes at a speed that I cannot match by hand.
+People are vibe-coding mods, and while there are obvious problems, it's also true that gamers and communities are embracing them regardless. Project Zomboid has 2 first person projects in the works, one of them is being used in a mod list that added jumping and mantling. Dying Light meets Project Zomboid, which is what one of my in-progress projects essentially is, is being built in front of my eyes at a speed that I cannot match by hand.
 
 My world is unique and my stories are my own, in that way I feel secure, but is this not scary?
 
-AI cannot create or synthesize things that do not currently exist. Without the brilliant talents who made both Skate 3 and Skyrim to begin with, it's literally impossible for these stupid game mash-ups to exist. That's the wall of LLMs and forever will be, the inability to synethsize.
+AI cannot create or synthesize things that do not currently exist. Without the brilliant talents who made both Skate 3 and Skyrim to begin with, it's literally impossible for these stupid game mash-ups to exist. That's the wall of LLMs and forever will be, the inability to synthesize.
 
 But it's still nasty isn't it?
 
@@ -153,7 +153,7 @@ That openness changed my life trajectory and it's not something I will ever forg
 
 The least I can do to pass the torch, despite the rest of the world already being on fire, right? And so I will.
 
-As for AI, I still don't know. I still don't use it for the shit I care about. I likely never will. But I think I have to grow okay with it existing along-side me. It's stupid that somehow this tool has been taken by the worst people rather than the best of us. If it was trained ethically, if it paid reperations to the people it stole from, if it created more enjoyable jobs than it displaced profitable ones, I would even go so far as to forgive it.
+As for AI, I still don't know. I still don't use it for the shit I care about. I likely never will. But I think I have to grow okay with it existing along-side me. It's stupid that somehow this tool has been taken by the worst people rather than the best of us. If it was trained ethically, if it paid reparations to the people it stole from, if it created more enjoyable jobs than it displaced profitable ones, I would even go so far as to forgive it.
 
 But I cannot be grabbed by the balls and yanked around by a fucking next token prediction machine.
 
